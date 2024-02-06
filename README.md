@@ -1,6 +1,6 @@
 # Vampirism: Bedrock Edtion
 
-#Aviso de Licença e Conteúdo Original
+# Aviso de Licença e Conteúdo Original
 Este projeto é uma adaptação do mod "Vampirism" para Minecraft Java, originalmente desenvolvido e licenciado sob a GNU LGPL 3.0. Esta adaptação foi feita com base no código-fonte original, respeitando os termos da licença.
 
 ## Licença:
