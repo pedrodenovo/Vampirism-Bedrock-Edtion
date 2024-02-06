@@ -10,7 +10,7 @@ After being bitten by a vampire or manually injecting vampire blood, you acquire
 # Links
 [![](https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/social/discord-plural_vector.svg)](https://discord.com/invite/HAS99pEwJ4)
 
-# Creditos
+# Credits
 I give credit to all the people who contributed to the modeling and texturing of the elements used or to be used in the addon.
 
 - TheRebelT Models/Textures
