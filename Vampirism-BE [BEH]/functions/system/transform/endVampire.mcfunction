@@ -1,0 +1,1 @@
+event entity @s sunrise:end_vampire_transformation

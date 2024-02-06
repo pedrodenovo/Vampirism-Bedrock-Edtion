@@ -1,0 +1,104 @@
+{
+    "format_version": "1.8.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "sunrise:vampire",
+            "min_engine_version": "1.8.0",
+            "materials": {
+                "default": "stray"
+            },
+            "textures": {
+                "skin1": "textures/entity/vampiro/skin1",
+                "skin2": "textures/entity/vampiro/skin2",
+                "skin3": "textures/entity/vampiro/skin3",
+                "skin4": "textures/entity/vampiro/skin4",
+                "skin5": "textures/entity/vampiro/skin5",
+                "skin6": "textures/entity/vampiro/skin6",
+                "skin7": "textures/entity/vampiro/skin7",
+                "skin8": "textures/entity/vampiro/skin8",
+                "skin9": "textures/entity/vampiro/skin9",
+                "skin10": "textures/entity/vampiro/skin10",
+                "skin11": "textures/entity/vampiro/skin11",
+                "skin12": "textures/entity/vampiro/skin12",
+                "skin13": "textures/entity/vampiro/skin13",
+                "skin14": "textures/entity/vampiro/skin14",
+                "skin15": "textures/entity/vampiro/skin15",
+                "skin16": "textures/entity/vampiro/skin16",
+                "bat": "textures/entity/bat"
+            },
+            "geometry": {
+                "default": "geometry.mas",
+                "bat": "geometry.bat"
+            },
+            "spawn_egg": {
+                "texture": "spawn_egg_vp_lv1",
+                "texture_index": 0
+            },
+            "scripts": {
+                "pre_animation": [
+                    "variable.tcos0 = (Math.cos(query.modified_distance_moved * 38.17) * query.modified_move_speed / variable.gliding_speed_value) * 57.3;"
+                ]
+            },
+            "animations": {
+                "look_at_target_default": "animation.humanoid.look_at_target.default",
+                "look_at_target_gliding": "animation.humanoid.look_at_target.gliding",
+                "look_at_target_swimming": "animation.humanoid.look_at_target.swimming",
+                "move": "animation.humanoid.move",
+                "riding.arms": "animation.humanoid.riding.arms",
+                "riding.legs": "animation.humanoid.riding.legs",
+                "holding": "animation.humanoid.holding",
+                "brandish_spear": "animation.humanoid.brandish_spear",
+                "charging": "animation.humanoid.charging",
+                "attack.rotations": "animation.humanoid.attack.rotations",
+                "sneaking": "animation.humanoid.sneaking",
+                "bob": "animation.humanoid.bob",
+                "damage_nearby_mobs": "animation.humanoid.damage_nearby_mobs",
+                "swimming": "animation.zombie.swimming",
+                "use_item_progress": "animation.humanoid.use_item_progress",
+                "flying": "animation.bat.flying"
+            },
+            "animation_controllers": [
+                {
+                    "look_at_target": "controller.animation.humanoid.look_at_target"
+                },
+                {
+                    "move": "controller.animation.humanoid.move"
+                },
+                {
+                    "riding": "controller.animation.humanoid.riding"
+                },
+                {
+                    "holding": "controller.animation.humanoid.holding"
+                },
+                {
+                    "brandish_spear": "controller.animation.humanoid.brandish_spear"
+                },
+                {
+                    "charging": "controller.animation.humanoid.charging"
+                },
+                {
+                    "sneaking": "controller.animation.humanoid.sneaking"
+                },
+                {
+                    "bob": "controller.animation.humanoid.bob"
+                },
+                {
+                    "swimming": "controller.animation.zombie.swimming"
+                },
+                {
+                    "use_item_progress": "controller.animation.humanoid.use_item_progress"
+                },
+                {
+                    "flying": "controller.animation.bat.move_vp"
+                },
+                {
+                    "attack": "controller.animation.vpc_craft.attack"
+                }
+            ],
+            "render_controllers": [
+                "controller.render.vampiro_simples"
+            ],
+            "enable_attachables": true
+        }
+    }
+}

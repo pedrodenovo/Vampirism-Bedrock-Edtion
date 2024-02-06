@@ -16,7 +16,7 @@
 		},
 		"events": {
 			"on_tool_used": {
-				"run_command": {"command":"function system/transform/vampire"},
+				"run_command": {"command":"function system/transform/startVampire"},
 				"transform_item": {"transform": "air"}
 			}
 		}
