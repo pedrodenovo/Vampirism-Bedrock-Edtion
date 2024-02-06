@@ -1,5 +1,12 @@
 # Vampirism: Bedrock Edtion
 
+- [Addon description](#addon-description)
+- [Links](#links)
+- [Credits](#credits)
+- [License Notice and Original Content](#license-notice-and-original-content)
+  - [Original Content](#original-content)
+  - [License](#license)
+
 # Addon description
 Vampires are fast, powerful and bloodthirsty creatures who avoid sunlight but thrive in the darkness of night, and the most exciting thing: you can become one!
 
