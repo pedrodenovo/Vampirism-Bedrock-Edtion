@@ -7,6 +7,9 @@ Este addon possibilita a transformação em um vampiro, com todas as suas vantag
 
 Após ser mordido por um vampiro ou injetar manualmente sangue de vampiro, você adquire o efeito "Sanguinare Vampiris", que gradualmente o converte em um dos filhos da noite.
 
+# Links
+[![](https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/social/discord-plural_vector.svg)](https://discord.com/invite/HAS99pEwJ4)
+
 # Aviso de Licença e Conteúdo Original
 Este projeto é uma adaptação do mod "Vampirism" para Minecraft Java, originalmente desenvolvido e licenciado sob a GNU LGPL 3.0. Esta adaptação foi feita com base no código-fonte original, respeitando os termos da licença.
 
