@@ -12,11 +12,11 @@
 				"texture": "vampire_fang"
 			},
 			"minecraft:on_use": {"on_use": {"event": "on_tool_used"}},
-			"minecraft:max_stack_size": 64
+			"minecraft:max_stack_size": 1
 		},
 		"events": {
 			"on_tool_used": {
-				"run_command": {"command":"function .system/transform/vampire"},
+				"run_command": {"command":"function system/transform/vampire"},
 				"transform_item": {"transform": "air"}
 			}
 		}
