@@ -1,0 +1,62 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Vampirism: Bedrock Edtion",
+		"description": "This project is an adaptation of the \"Vampirism\" mod for Minecraft Java, originally developed and licensed under the GNU LGPL 3.0. This adaptation was made based on the original source code, respecting the terms of the license.",
+		"min_engine_version": [
+			1,
+			20,
+			60
+		],
+		"uuid": "09a7bf6d-104b-46c9-9e76-57ddffc8b744",
+		"version": [
+			1,
+			0,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "7091604a-3e5e-4585-aff7-099411026e7e",
+			"version": [
+				1,
+				0,
+				0
+			]
+		},
+		{
+			"type": "script",
+			"language": "javascript",
+			"uuid": "73ff48a6-7d75-44a2-b24d-ea4229541c11",
+			"entry": "scripts/main.js",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "2e7e10b3-c437-433a-95e8-ba59aa468487",
+			"version": [
+				1,
+				0,
+				0
+			]
+		},
+		{
+			"module_name": "@minecraft/server",
+			"version": "1.0.0-beta"
+		},
+		{
+			"module_name": "@minecraft/server-gametest",
+			"version": "1.0.0-beta"
+		},
+		{
+			"module_name": "@minecraft/server-ui",
+			"version": "1.0.0-beta"
+		}
+	]
+}
