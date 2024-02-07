@@ -1,0 +1,44 @@
+{
+   "format_version":"1.8.0",
+   "render_controllers":{
+      "controller.render.vampiro_simples":{
+         "arrays":{
+            "geometries":{
+               "Array.geo":[
+                  "Geometry.default"
+               ]
+            },
+            "textures":{
+               "Array.skins":[
+                  "Texture.skin1",
+                  "Texture.skin2",
+                  "Texture.skin3",
+                  "Texture.skin4",
+                 "Texture.skin5",
+                  "Texture.skin6",
+                  "Texture.skin7",
+                  "Texture.skin8",
+                 "Texture.skin9",
+                  "Texture.skin10",
+                  "Texture.skin11",
+                  "Texture.skin12",
+                 "Texture.skin13",
+                  "Texture.skin14",
+                  "Texture.skin15",
+                  "Texture.skin16",
+            
+               ]
+            }
+         },
+         "geometry":"Array.geo[0]",
+         "materials":[
+            {
+               "*":"Material.default"
+            }
+         ],
+         "textures":[
+            "Array.skins[query.variant]"
+         ]
+      }
+   }
+}
