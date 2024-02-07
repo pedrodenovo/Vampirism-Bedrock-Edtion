@@ -3,11 +3,6 @@
    "render_controllers":{
       "controller.render.vampiro_simples":{
          "arrays":{
-            "geometries":{
-               "Array.geo":[
-                  "Geometry.default"
-               ]
-            },
             "textures":{
                "Array.skins":[
                   "Texture.skin1",
@@ -30,7 +25,7 @@
                ]
             }
          },
-         "geometry":"Array.geo[0]",
+         "geometry":"Geometry.default",
          "materials":[
             {
                "*":"Material.default"
