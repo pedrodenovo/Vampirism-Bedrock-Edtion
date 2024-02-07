@@ -1,0 +1,57 @@
+{
+  "namespace": "hud",
+
+  "bite_fang_display": {
+    "$update_string": "bite_display",
+    "type": "label",
+    "layer": 90,
+    "font_scale_factor": 1.5,
+    "text": "#text",
+    "offset":[-2.5,-0.5],
+    "controls": [
+      {
+        "data_control": {
+          "type": "panel",
+          "size": [ 0, 0 ],
+          "bindings": [
+            {
+              "binding_name": "#hud_title_text_string"
+            },
+            {
+              "binding_name": "#hud_title_text_string",
+              "binding_name_override": "#preserved_text",
+              "binding_condition": "visibility_changed"
+            },
+            {
+              "binding_type": "view",
+              "source_property_name": "(not (#hud_title_text_string = #preserved_text) and not ((#hud_title_text_string - $update_string) = #hud_title_text_string))",
+              "target_property_name": "#visible"
+            }
+          ]
+        }
+      }
+    ],
+    "bindings": [
+      {
+        "binding_type": "view",
+        "source_control_name": "data_control", 
+        "source_property_name": "(#preserved_text - $update_string)", 
+        "target_property_name": "#text"
+      }
+    ]
+  },
+  
+  "root_panel": {
+    "modifications": [
+      {
+        "array_name": "controls",
+        "operation": "insert_front",
+        "value": [
+          { 
+            "bite_fang_display@hud.bite_fang_display": {}
+         }
+        ]
+      }
+    ]
+  }
+}
