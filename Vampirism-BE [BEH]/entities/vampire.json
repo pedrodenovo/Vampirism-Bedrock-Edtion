@@ -229,11 +229,6 @@
          "minecraft:equip_item":{
             
          },
-         "minecraft:transformed":{
-            "minecraft:transformation":{
-               "into":"minecraft:zombie_villager"
-            }
-         },
          "minecraft:loot":{
             "table":"loot_tables/entities/vampire.json"
          },
