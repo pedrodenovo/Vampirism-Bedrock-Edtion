@@ -8,22 +8,22 @@
                 "default": "stray"
             },
             "textures": {
-                "skin1": "textures/entity/vampiro/skin1",
-                "skin2": "textures/entity/vampiro/skin2",
-                "skin3": "textures/entity/vampiro/skin3",
-                "skin4": "textures/entity/vampiro/skin4",
-                "skin5": "textures/entity/vampiro/skin5",
-                "skin6": "textures/entity/vampiro/skin6",
-                "skin7": "textures/entity/vampiro/skin7",
-                "skin8": "textures/entity/vampiro/skin8",
-                "skin9": "textures/entity/vampiro/skin9",
-                "skin10": "textures/entity/vampiro/skin10",
-                "skin11": "textures/entity/vampiro/skin11",
-                "skin12": "textures/entity/vampiro/skin12",
-                "skin13": "textures/entity/vampiro/skin13",
-                "skin14": "textures/entity/vampiro/skin14",
-                "skin15": "textures/entity/vampiro/skin15",
-                "skin16": "textures/entity/vampiro/skin16",
+                "skin1": "textures/entity/Vampire/skin1",
+                "skin2": "textures/entity/Vampire/skin2",
+                "skin3": "textures/entity/Vampire/skin3",
+                "skin4": "textures/entity/Vampire/skin4",
+                "skin5": "textures/entity/Vampire/skin5",
+                "skin6": "textures/entity/Vampire/skin6",
+                "skin7": "textures/entity/Vampire/skin7",
+                "skin8": "textures/entity/Vampire/skin8",
+                "skin9": "textures/entity/Vampire/skin9",
+                "skin10": "textures/entity/Vampire/skin10",
+                "skin11": "textures/entity/Vampire/skin11",
+                "skin12": "textures/entity/Vampire/skin12",
+                "skin13": "textures/entity/Vampire/skin13",
+                "skin14": "textures/entity/Vampire/skin14",
+                "skin15": "textures/entity/Vampire/skin15",
+                "skin16": "textures/entity/Vampire/skin16",
                 "bat": "textures/entity/bat"
             },
             "geometry": {
@@ -31,7 +31,7 @@
                 "bat": "geometry.bat"
             },
             "spawn_egg": {
-                "texture": "spawn_egg_vp_lv1",
+                "texture": "spawnegg_vampire",
                 "texture_index": 0
             },
             "scripts": {
