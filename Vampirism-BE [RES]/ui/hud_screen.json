@@ -5,7 +5,7 @@
     "$update_string": "bite_display",
     "type": "label",
     "layer": 90,
-    "font_scale_factor": 1.5,
+    "font_scale_factor": 1,
     "text": "#text",
     "offset":[-2.5,-0.5],
     "controls": [
