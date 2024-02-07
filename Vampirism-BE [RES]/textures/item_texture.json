@@ -2,6 +2,7 @@
 	"resource_pack_name": "Vampirism - Bedrock Edtion",
 	"texture_name": "atlas.items",
 	"texture_data": {
+		"spawnegg_vampire":{"textures": "textures/items/spawnegg_vampire"},
 		"vampire_fang": {
 			"textures": "textures/items/vampire_fang"
 		}
