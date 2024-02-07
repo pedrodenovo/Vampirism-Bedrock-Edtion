@@ -6,6 +6,7 @@
 - [License Notice and Original Content](#license-notice-and-original-content)
   - [Original Content](#original-content)
   - [License](#license)
+- [Download](https://github.com/pedrodenovo/Vampirism-Bedrock-Edtion/releases)
 
 # Addon description
 Vampires are fast, powerful and bloodthirsty creatures who avoid sunlight but thrive in the darkness of night, and the most exciting thing: you can become one!
@@ -45,12 +46,12 @@ I give credit to all the people who contributed to the modeling and texturing of
 - T_Corvus Textures
 
 # License Notice and Original Content
-This project is an adaptation of the "Vampirism" mod for Minecraft Java, originally developed and licensed under the GNU LGPL 3.0. This adaptation was made based on the original source code, respecting the terms of the license.
+This project is an adaptation of the "[Vampirism](https://github.com/TeamLapen/Vampirism)" mod for Minecraft Java, originally developed and licensed under the [GNU LGPL 3.0](https://choosealicense.com/licenses/lgpl-3.0/). This adaptation was made based on the original source code, respecting the terms of the license.
 
 ## Original Content:
-The "Vampirism" mod for Minecraft Java, including all assets, source code and visual elements, is the property of its respective creator(s) and/or copyright holder(s). This project is an adaptation of and is not affiliated with, endorsed or sponsored by the original creator(s) of the "Vampirism" mod.
+The "[Vampirism](https://github.com/TeamLapen/Vampirism)" mod for Minecraft Java, including all assets, source code and visual elements, is the property of its respective creator(s) and/or copyright holder(s). This project is an adaptation of and is not affiliated with, endorsed or sponsored by the original creator(s) of the "[Vampirism](https://github.com/TeamLapen/Vampirism)" mod.
 
-This project is an adaptation of the mod originally developed and licensed under the GNU LGPL 3.0. This adaptation was made based on the original source code, respecting the terms of the license.
+This project is an adaptation of the mod originally developed and licensed under the [GNU LGPL 3.0](https://choosealicense.com/licenses/lgpl-3.0/). This adaptation was made based on the original source code, respecting the terms of the license.
 
 ## License:
-The content of this project is distributed under the terms of the GNU LGPL 3.0. You are free to modify and distribute this project according to the terms of this license. Be sure to read and fully understand the terms of the license before using this project.
+The content of this project is distributed under the terms of the [GNU LGPL 3.0](https://choosealicense.com/licenses/lgpl-3.0/). You are free to modify and distribute this project according to the terms of this license. Be sure to read and fully understand the terms of the license before using this project.
