@@ -20,7 +20,7 @@ server.system.runInterval(eventData => {
             if (successCountEntity == 1) {
                 player.runCommand("title @s times 0 0 0")
                 player.runCommand("title @s title  bite_display")
-                player.getEntitiesFromViewDirection()[0].entity.runCommand("say I see you")
+                //player.getEntitiesFromViewDirection()[0].entity.runCommand("say I see you")
             }
 
         }else{
