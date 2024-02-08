@@ -195,6 +195,15 @@
             "goal_radius":2,
             "speed_multiplier":0.5
          },
+         "minecraft:movement.basic": {},
+         "minecraft:navigation.walk": {
+           "is_amphibious": true,
+           "can_path_over_water": true,
+           "can_pass_doors": true,
+           "can_open_doors": false,
+           "can_walk": true,
+           "avoid_water": true
+         },
          "minecraft:behavior.random_stroll":{
             "priority":11,
             "speed_multiplier":0.6

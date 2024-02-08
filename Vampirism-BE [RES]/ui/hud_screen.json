@@ -1,6 +1,7 @@
 {
   "namespace": "hud",
 
+
   "bite_fang_display": {
     "$update_string": "bite_display",
     "type": "label",
