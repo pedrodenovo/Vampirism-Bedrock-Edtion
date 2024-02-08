@@ -1,0 +1,30 @@
+{
+   "format_version":"1.16.100",
+   "minecraft:item":{
+      "description":{
+         "category":"Items",
+         "identifier":"sunrise:blood_bottle_0"
+      },
+      "components":{
+         "tag:sangue":{
+            
+         },
+         "minecraft:display_name":{
+            "value":"item.sunrise:blood_bottle_0.name"
+         },
+         "minecraft:max_stack_size":16,
+         "minecraft:use_animation":"drink",
+         "minecraft:icon":{
+            "texture":"blood_bottle_0"
+         },
+         "minecraft:creative_category":{
+            "parent":"itemGroup.sangue"
+         }
+      },
+      "events":{
+         "swing":{
+            
+         }
+      }
+   }
+}
