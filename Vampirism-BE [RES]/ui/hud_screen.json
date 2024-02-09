@@ -6,9 +6,9 @@
     "$update_string": "bite_display",
     "type": "label",
     "layer": 90,
-    "font_scale_factor": 1,
-    "text": "#text",
-    "offset":[-2.5,-0.5],
+    "font_scale_factor": 0.66,
+    "text": "",
+    "offset":[-2.5,0],
     "controls": [
       {
         "data_control": {
@@ -20,13 +20,7 @@
             },
             {
               "binding_name": "#hud_title_text_string",
-              "binding_name_override": "#preserved_text",
-              "binding_condition": "visibility_changed"
-            },
-            {
-              "binding_type": "view",
-              "source_property_name": "(not (#hud_title_text_string = #preserved_text) and not ((#hud_title_text_string - $update_string) = #hud_title_text_string))",
-              "target_property_name": "#visible"
+              "binding_name_override": "#preserved_text"
             }
           ]
         }
@@ -36,8 +30,8 @@
       {
         "binding_type": "view",
         "source_control_name": "data_control", 
-        "source_property_name": "(#preserved_text - $update_string)", 
-        "target_property_name": "#text"
+        "source_property_name": "(not ((#preserved_text - $update_string) = #hud_title_text_string)))", 
+        "target_property_name": "#visible"
       }
     ]
   },
