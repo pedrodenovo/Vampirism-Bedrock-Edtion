@@ -44,7 +44,13 @@
         "value": [
           { 
             "bite_fang_display@hud.bite_fang_display": {}
-         }
+         },
+         { 
+          "lv_vamp_1_display@level_vamp.lv_vamp_1_display": {}
+        },
+        { 
+          "lv_vamp_2_display@level_vamp.lv_vamp_2_display": {}
+        }
         ]
       }
     ]
