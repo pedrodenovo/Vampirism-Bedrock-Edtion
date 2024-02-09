@@ -1,56 +1,71 @@
 {
   "namespace": "hud",
-
-
-  "bite_fang_display": {
-    "$update_string": "bite_display",
-    "type": "label",
-    "layer": 90,
-    "font_scale_factor": 0.66,
-    "text": "",
-    "offset":[-2.5,0],
-    "controls": [
-      {
-        "data_control": {
-          "type": "panel",
-          "size": [ 0, 0 ],
-          "bindings": [
-            {
-              "binding_name": "#hud_title_text_string"
-            },
-            {
-              "binding_name": "#hud_title_text_string",
-              "binding_name_override": "#preserved_text"
-            }
-          ]
-        }
-      }
-    ],
-    "bindings": [
-      {
-        "binding_type": "view",
-        "source_control_name": "data_control", 
-        "source_property_name": "(not ((#preserved_text - $update_string) = #hud_title_text_string)))", 
-        "target_property_name": "#visible"
-      }
-    ]
-  },
-  
   "root_panel": {
     "modifications": [
       {
         "array_name": "controls",
         "operation": "insert_front",
         "value": [
-          { 
-            "bite_fang_display@hud.bite_fang_display": {}
-         },
-         { 
-          "lv_vamp_1_display@level_vamp.lv_vamp_1_display": {}
-        },
-        { 
-          "lv_vamp_2_display@level_vamp.lv_vamp_2_display": {}
-        }
+          {
+            "bite_fang_display@drink_blood_display.bite_fang_display": {}
+          },
+          {
+            "bite_5_display@drink_blood_display.bite_5_display": {}
+          },
+          {
+            "bite_4_display@drink_blood_display.bite_4_display": {}
+          },
+          {
+            "bite_3_display@drink_blood_display.bite_3_display": {}
+          },
+          {
+            "bite_2_display@drink_blood_display.bite_2_display": {}
+          },
+          {
+            "bite_1_display@drink_blood_display.bite_1_display": {}
+          },
+          {
+            "lv_vamp_1_display@level_vamp.lv_vamp_1_display": {}
+          },
+          {
+            "lv_vamp_2_display@level_vamp.lv_vamp_2_display": {}
+          },
+          {
+            "lv_vamp_3_display@level_vamp.lv_vamp_2_display": {}
+          },
+          {
+            "lv_vamp_4_display@level_vamp.lv_vamp_2_display": {}
+          },
+          {
+            "lv_vamp_5_display@level_vamp.lv_vamp_2_display": {}
+          },
+          {
+            "lv_vamp_6_display@level_vamp.lv_vamp_1_display": {}
+          },
+          {
+            "lv_vamp_7_display@level_vamp.lv_vamp_2_display": {}
+          },
+          {
+            "lv_vamp_8_display@level_vamp.lv_vamp_2_display": {}
+          },
+          {
+            "lv_vamp_9_display@level_vamp.lv_vamp_2_display": {}
+          },
+          {
+            "lv_vamp_10_display@level_vamp.lv_vamp_2_display": {}
+          },
+          {
+            "lv_vamp_11_display@level_vamp.lv_vamp_1_display": {}
+          },
+          {
+            "lv_vamp_12_display@level_vamp.lv_vamp_2_display": {}
+          },
+          {
+            "lv_vamp_13_display@level_vamp.lv_vamp_2_display": {}
+          },
+          {
+            "lv_vamp_14_display@level_vamp.lv_vamp_2_display": {}
+          }
         ]
       }
     ]

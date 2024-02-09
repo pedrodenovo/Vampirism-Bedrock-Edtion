@@ -1,0 +1,239 @@
+{
+    
+    "namespace": "drink_blood_display",
+
+    "bite_fang_display": {
+        "$update_string": "bite_display",
+        "type": "label",
+        "layer": 90,
+        "font_scale_factor": 0.66,
+        "text": "",
+        "offset": [
+            -2.5,
+            0
+        ],
+        "controls": [
+            {
+                "data_control": {
+                    "type": "panel",
+                    "size": [
+                        0,
+                        0
+                    ],
+                    "bindings": [
+                        {
+                            "binding_name": "#hud_title_text_string"
+                        },
+                        {
+                            "binding_name": "#hud_title_text_string",
+                            "binding_name_override": "#preserved_text"
+                        }
+                    ]
+                }
+            }
+        ],
+        "bindings": [
+            {
+                "binding_type": "view",
+                "source_control_name": "data_control",
+                "source_property_name": "(not ((#preserved_text - $update_string) = #hud_title_text_string)))",
+                "target_property_name": "#visible"
+            }
+        ]
+    },
+    "bite_5_display": {
+        "$update_string": "bite_5_display",
+        "type": "label",
+        "layer": 90,
+        "font_scale_factor": 0.66,
+        "text": "",
+        "offset": [
+            -2.5,
+            0
+        ],
+        "controls": [
+            {
+                "data_control": {
+                    "type": "panel",
+                    "size": [
+                        0,
+                        0
+                    ],
+                    "bindings": [
+                        {
+                            "binding_name": "#hud_title_text_string"
+                        },
+                        {
+                            "binding_name": "#hud_title_text_string",
+                            "binding_name_override": "#preserved_text"
+                        }
+                    ]
+                }
+            }
+        ],
+        "bindings": [
+            {
+                "binding_type": "view",
+                "source_control_name": "data_control",
+                "source_property_name": "(not ((#preserved_text - $update_string) = #hud_title_text_string)))",
+                "target_property_name": "#visible"
+            }
+        ]
+    },
+    "bite_4_display": {
+        "$update_string": "bite_4_display",
+        "type": "label",
+        "layer": 90,
+        "font_scale_factor": 0.66,
+        "text": "",
+        "offset": [
+            -2.5,
+            0
+        ],
+        "controls": [
+            {
+                "data_control": {
+                    "type": "panel",
+                    "size": [
+                        0,
+                        0
+                    ],
+                    "bindings": [
+                        {
+                            "binding_name": "#hud_title_text_string"
+                        },
+                        {
+                            "binding_name": "#hud_title_text_string",
+                            "binding_name_override": "#preserved_text"
+                        }
+                    ]
+                }
+            }
+        ],
+        "bindings": [
+            {
+                "binding_type": "view",
+                "source_control_name": "data_control",
+                "source_property_name": "(not ((#preserved_text - $update_string) = #hud_title_text_string)))",
+                "target_property_name": "#visible"
+            }
+        ]
+    },
+    "bite_3_display": {
+        "$update_string": "bite_3_display",
+        "type": "label",
+        "layer": 90,
+        "font_scale_factor": 0.66,
+        "text": "",
+        "offset": [
+            -2.5,
+            0
+        ],
+        "controls": [
+            {
+                "data_control": {
+                    "type": "panel",
+                    "size": [
+                        0,
+                        0
+                    ],
+                    "bindings": [
+                        {
+                            "binding_name": "#hud_title_text_string"
+                        },
+                        {
+                            "binding_name": "#hud_title_text_string",
+                            "binding_name_override": "#preserved_text"
+                        }
+                    ]
+                }
+            }
+        ],
+        "bindings": [
+            {
+                "binding_type": "view",
+                "source_control_name": "data_control",
+                "source_property_name": "(not ((#preserved_text - $update_string) = #hud_title_text_string)))",
+                "target_property_name": "#visible"
+            }
+        ]
+    },
+    "bite_2_display": {
+        "$update_string": "bite_2_display",
+        "type": "label",
+        "layer": 90,
+        "font_scale_factor": 0.66,
+        "text": "",
+        "offset": [
+            -2.5,
+            0
+        ],
+        "controls": [
+            {
+                "data_control": {
+                    "type": "panel",
+                    "size": [
+                        0,
+                        0
+                    ],
+                    "bindings": [
+                        {
+                            "binding_name": "#hud_title_text_string"
+                        },
+                        {
+                            "binding_name": "#hud_title_text_string",
+                            "binding_name_override": "#preserved_text"
+                        }
+                    ]
+                }
+            }
+        ],
+        "bindings": [
+            {
+                "binding_type": "view",
+                "source_control_name": "data_control",
+                "source_property_name": "(not ((#preserved_text - $update_string) = #hud_title_text_string)))",
+                "target_property_name": "#visible"
+            }
+        ]
+    },
+    "bite_1_display": {
+        "$update_string": "bite_1_display",
+        "type": "label",
+        "layer": 90,
+        "font_scale_factor": 0.66,
+        "text": "",
+        "offset": [
+            -2.5,
+            0
+        ],
+        "controls": [
+            {
+                "data_control": {
+                    "type": "panel",
+                    "size": [
+                        0,
+                        0
+                    ],
+                    "bindings": [
+                        {
+                            "binding_name": "#hud_title_text_string"
+                        },
+                        {
+                            "binding_name": "#hud_title_text_string",
+                            "binding_name_override": "#preserved_text"
+                        }
+                    ]
+                }
+            }
+        ],
+        "bindings": [
+            {
+                "binding_type": "view",
+                "source_control_name": "data_control",
+                "source_property_name": "(not ((#preserved_text - $update_string) = #hud_title_text_string)))",
+                "target_property_name": "#visible"
+            }
+        ]
+    }
+}

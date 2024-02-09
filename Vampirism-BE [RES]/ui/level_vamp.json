@@ -1,7 +1,7 @@
 {
-"namespace": "level_vamp",
-
-"lv_vamp_1_display": {
+  "namespace": "level_vamp",
+  
+  "lv_vamp_1_display": {
     "$update_string": "lv_vamp_1",
     "type": "label",
     "layer": 91,
@@ -9,12 +9,18 @@
     "text": "§51",
     "anchor_from": "bottom_middle",
     "anchor_to": "bottom_middle",
-    "offset":[0,-42],
+    "offset": [
+      0,
+      -42
+    ],
     "controls": [
       {
         "data_control": {
           "type": "panel",
-          "size": [ 0, 0 ],
+          "size": [
+            0,
+            0
+          ],
           "bindings": [
             {
               "binding_name": "#hud_title_text_string"
@@ -30,8 +36,8 @@
     "bindings": [
       {
         "binding_type": "view",
-        "source_control_name": "data_control", 
-        "source_property_name": "(not ((#preserved_text - $update_string) = #hud_title_text_string)))", 
+        "source_control_name": "data_control",
+        "source_property_name": "(not ((#preserved_text - $update_string) = #hud_title_text_string)))",
         "target_property_name": "#visible"
       }
     ]
@@ -44,12 +50,18 @@
     "text": "§52",
     "anchor_from": "bottom_middle",
     "anchor_to": "bottom_middle",
-    "offset":[0,-42],
+    "offset": [
+      0,
+      -42
+    ],
     "controls": [
       {
         "data_control": {
           "type": "panel",
-          "size": [ 0, 0 ],
+          "size": [
+            0,
+            0
+          ],
           "bindings": [
             {
               "binding_name": "#hud_title_text_string"
@@ -65,8 +77,500 @@
     "bindings": [
       {
         "binding_type": "view",
-        "source_control_name": "data_control", 
-        "source_property_name": "(not ((#preserved_text - $update_string) = #hud_title_text_string)))", 
+        "source_control_name": "data_control",
+        "source_property_name": "(not ((#preserved_text - $update_string) = #hud_title_text_string)))",
+        "target_property_name": "#visible"
+      }
+    ]
+  },
+  "lv_vamp_3_display": {
+    "$update_string": "lv_vamp_3",
+    "type": "label",
+    "layer": 91,
+    "font_scale_factor": 1,
+    "text": "§53",
+    "anchor_from": "bottom_middle",
+    "anchor_to": "bottom_middle",
+    "offset": [
+      0,
+      -42
+    ],
+    "controls": [
+      {
+        "data_control": {
+          "type": "panel",
+          "size": [
+            0,
+            0
+          ],
+          "bindings": [
+            {
+              "binding_name": "#hud_title_text_string"
+            },
+            {
+              "binding_name": "#hud_title_text_string",
+              "binding_name_override": "#preserved_text"
+            }
+          ]
+        }
+      }
+    ],
+    "bindings": [
+      {
+        "binding_type": "view",
+        "source_control_name": "data_control",
+        "source_property_name": "(not ((#preserved_text - $update_string) = #hud_title_text_string)))",
+        "target_property_name": "#visible"
+      }
+    ]
+  },
+  "lv_vamp_4_display": {
+    "$update_string": "lv_vamp_4",
+    "type": "label",
+    "layer": 91,
+    "font_scale_factor": 1,
+    "text": "§54",
+    "anchor_from": "bottom_middle",
+    "anchor_to": "bottom_middle",
+    "offset": [
+      0,
+      -42
+    ],
+    "controls": [
+      {
+        "data_control": {
+          "type": "panel",
+          "size": [
+            0,
+            0
+          ],
+          "bindings": [
+            {
+              "binding_name": "#hud_title_text_string"
+            },
+            {
+              "binding_name": "#hud_title_text_string",
+              "binding_name_override": "#preserved_text"
+            }
+          ]
+        }
+      }
+    ],
+    "bindings": [
+      {
+        "binding_type": "view",
+        "source_control_name": "data_control",
+        "source_property_name": "(not ((#preserved_text - $update_string) = #hud_title_text_string)))",
+        "target_property_name": "#visible"
+      }
+    ]
+  },
+  "lv_vamp_5_display": {
+    "$update_string": "lv_vamp_5",
+    "type": "label",
+    "layer": 91,
+    "font_scale_factor": 1,
+    "text": "§55",
+    "anchor_from": "bottom_middle",
+    "anchor_to": "bottom_middle",
+    "offset": [
+      0,
+      -42
+    ],
+    "controls": [
+      {
+        "data_control": {
+          "type": "panel",
+          "size": [
+            0,
+            0
+          ],
+          "bindings": [
+            {
+              "binding_name": "#hud_title_text_string"
+            },
+            {
+              "binding_name": "#hud_title_text_string",
+              "binding_name_override": "#preserved_text"
+            }
+          ]
+        }
+      }
+    ],
+    "bindings": [
+      {
+        "binding_type": "view",
+        "source_control_name": "data_control",
+        "source_property_name": "(not ((#preserved_text - $update_string) = #hud_title_text_string)))",
+        "target_property_name": "#visible"
+      }
+    ]
+  },
+  "lv_vamp_6_display": {
+    "$update_string": "lv_vamp_6",
+    "type": "label",
+    "layer": 91,
+    "font_scale_factor": 1,
+    "text": "§56",
+    "anchor_from": "bottom_middle",
+    "anchor_to": "bottom_middle",
+    "offset": [
+      0,
+      -42
+    ],
+    "controls": [
+      {
+        "data_control": {
+          "type": "panel",
+          "size": [
+            0,
+            0
+          ],
+          "bindings": [
+            {
+              "binding_name": "#hud_title_text_string"
+            },
+            {
+              "binding_name": "#hud_title_text_string",
+              "binding_name_override": "#preserved_text"
+            }
+          ]
+        }
+      }
+    ],
+    "bindings": [
+      {
+        "binding_type": "view",
+        "source_control_name": "data_control",
+        "source_property_name": "(not ((#preserved_text - $update_string) = #hud_title_text_string)))",
+        "target_property_name": "#visible"
+      }
+    ]
+  },
+  "lv_vamp_7_display": {
+    "$update_string": "lv_vamp_7",
+    "type": "label",
+    "layer": 91,
+    "font_scale_factor": 1,
+    "text": "§57",
+    "anchor_from": "bottom_middle",
+    "anchor_to": "bottom_middle",
+    "offset": [
+      0,
+      -42
+    ],
+    "controls": [
+      {
+        "data_control": {
+          "type": "panel",
+          "size": [
+            0,
+            0
+          ],
+          "bindings": [
+            {
+              "binding_name": "#hud_title_text_string"
+            },
+            {
+              "binding_name": "#hud_title_text_string",
+              "binding_name_override": "#preserved_text"
+            }
+          ]
+        }
+      }
+    ],
+    "bindings": [
+      {
+        "binding_type": "view",
+        "source_control_name": "data_control",
+        "source_property_name": "(not ((#preserved_text - $update_string) = #hud_title_text_string)))",
+        "target_property_name": "#visible"
+      }
+    ]
+  },
+  "lv_vamp_8_display": {
+    "$update_string": "lv_vamp_8",
+    "type": "label",
+    "layer": 91,
+    "font_scale_factor": 1,
+    "text": "§58",
+    "anchor_from": "bottom_middle",
+    "anchor_to": "bottom_middle",
+    "offset": [
+      0,
+      -42
+    ],
+    "controls": [
+      {
+        "data_control": {
+          "type": "panel",
+          "size": [
+            0,
+            0
+          ],
+          "bindings": [
+            {
+              "binding_name": "#hud_title_text_string"
+            },
+            {
+              "binding_name": "#hud_title_text_string",
+              "binding_name_override": "#preserved_text"
+            }
+          ]
+        }
+      }
+    ],
+    "bindings": [
+      {
+        "binding_type": "view",
+        "source_control_name": "data_control",
+        "source_property_name": "(not ((#preserved_text - $update_string) = #hud_title_text_string)))",
+        "target_property_name": "#visible"
+      }
+    ]
+  },
+  "lv_vamp_9_display": {
+    "$update_string": "lv_vamp_9",
+    "type": "label",
+    "layer": 91,
+    "font_scale_factor": 1,
+    "text": "§59",
+    "anchor_from": "bottom_middle",
+    "anchor_to": "bottom_middle",
+    "offset": [
+      0,
+      -42
+    ],
+    "controls": [
+      {
+        "data_control": {
+          "type": "panel",
+          "size": [
+            0,
+            0
+          ],
+          "bindings": [
+            {
+              "binding_name": "#hud_title_text_string"
+            },
+            {
+              "binding_name": "#hud_title_text_string",
+              "binding_name_override": "#preserved_text"
+            }
+          ]
+        }
+      }
+    ],
+    "bindings": [
+      {
+        "binding_type": "view",
+        "source_control_name": "data_control",
+        "source_property_name": "(not ((#preserved_text - $update_string) = #hud_title_text_string)))",
+        "target_property_name": "#visible"
+      }
+    ]
+  },
+  "lv_vamp_10_display": {
+    "$update_string": "lv_vamp_10",
+    "type": "label",
+    "layer": 91,
+    "font_scale_factor": 1,
+    "text": "§510",
+    "anchor_from": "bottom_middle",
+    "anchor_to": "bottom_middle",
+    "offset": [
+      0,
+      -42
+    ],
+    "controls": [
+      {
+        "data_control": {
+          "type": "panel",
+          "size": [
+            0,
+            0
+          ],
+          "bindings": [
+            {
+              "binding_name": "#hud_title_text_string"
+            },
+            {
+              "binding_name": "#hud_title_text_string",
+              "binding_name_override": "#preserved_text"
+            }
+          ]
+        }
+      }
+    ],
+    "bindings": [
+      {
+        "binding_type": "view",
+        "source_control_name": "data_control",
+        "source_property_name": "(not ((#preserved_text - $update_string) = #hud_title_text_string)))",
+        "target_property_name": "#visible"
+      }
+    ]
+  },
+  "lv_vamp_11_display": {
+    "$update_string": "lv_vamp_11",
+    "type": "label",
+    "layer": 91,
+    "font_scale_factor": 1,
+    "text": "§511",
+    "anchor_from": "bottom_middle",
+    "anchor_to": "bottom_middle",
+    "offset": [
+      0,
+      -42
+    ],
+    "controls": [
+      {
+        "data_control": {
+          "type": "panel",
+          "size": [
+            0,
+            0
+          ],
+          "bindings": [
+            {
+              "binding_name": "#hud_title_text_string"
+            },
+            {
+              "binding_name": "#hud_title_text_string",
+              "binding_name_override": "#preserved_text"
+            }
+          ]
+        }
+      }
+    ],
+    "bindings": [
+      {
+        "binding_type": "view",
+        "source_control_name": "data_control",
+        "source_property_name": "(not ((#preserved_text - $update_string) = #hud_title_text_string)))",
+        "target_property_name": "#visible"
+      }
+    ]
+  },
+  "lv_vamp_12_display": {
+    "$update_string": "lv_vamp_12",
+    "type": "label",
+    "layer": 91,
+    "font_scale_factor": 1,
+    "text": "§6512",
+    "anchor_from": "bottom_middle",
+    "anchor_to": "bottom_middle",
+    "offset": [
+      0,
+      -42
+    ],
+    "controls": [
+      {
+        "data_control": {
+          "type": "panel",
+          "size": [
+            0,
+            0
+          ],
+          "bindings": [
+            {
+              "binding_name": "#hud_title_text_string"
+            },
+            {
+              "binding_name": "#hud_title_text_string",
+              "binding_name_override": "#preserved_text"
+            }
+          ]
+        }
+      }
+    ],
+    "bindings": [
+      {
+        "binding_type": "view",
+        "source_control_name": "data_control",
+        "source_property_name": "(not ((#preserved_text - $update_string) = #hud_title_text_string)))",
+        "target_property_name": "#visible"
+      }
+    ]
+  },
+  "lv_vamp_13_display": {
+    "$update_string": "lv_vamp_13",
+    "type": "label",
+    "layer": 91,
+    "font_scale_factor": 1,
+    "text": "§513",
+    "anchor_from": "bottom_middle",
+    "anchor_to": "bottom_middle",
+    "offset": [
+      0,
+      -42
+    ],
+    "controls": [
+      {
+        "data_control": {
+          "type": "panel",
+          "size": [
+            0,
+            0
+          ],
+          "bindings": [
+            {
+              "binding_name": "#hud_title_text_string"
+            },
+            {
+              "binding_name": "#hud_title_text_string",
+              "binding_name_override": "#preserved_text"
+            }
+          ]
+        }
+      }
+    ],
+    "bindings": [
+      {
+        "binding_type": "view",
+        "source_control_name": "data_control",
+        "source_property_name": "(not ((#preserved_text - $update_string) = #hud_title_text_string)))",
+        "target_property_name": "#visible"
+      }
+    ]
+  },
+  "lv_vamp_14_display": {
+    "$update_string": "lv_vamp_14",
+    "type": "label",
+    "layer": 91,
+    "font_scale_factor": 1,
+    "text": "§514",
+    "anchor_from": "bottom_middle",
+    "anchor_to": "bottom_middle",
+    "offset": [
+      0,
+      -42
+    ],
+    "controls": [
+      {
+        "data_control": {
+          "type": "panel",
+          "size": [
+            0,
+            0
+          ],
+          "bindings": [
+            {
+              "binding_name": "#hud_title_text_string"
+            },
+            {
+              "binding_name": "#hud_title_text_string",
+              "binding_name_override": "#preserved_text"
+            }
+          ]
+        }
+      }
+    ],
+    "bindings": [
+      {
+        "binding_type": "view",
+        "source_control_name": "data_control",
+        "source_property_name": "(not ((#preserved_text - $update_string) = #hud_title_text_string)))",
         "target_property_name": "#visible"
       }
     ]
