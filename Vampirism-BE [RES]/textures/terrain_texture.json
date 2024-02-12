@@ -1,0 +1,20 @@
+{
+	"num_mip_levels": 4,
+	"padding": 8,
+	"resource_pack_name": "Vampirism - Bedrock Edtion",
+	"texture_name": "atlas.terrain",
+	"texture_data": {
+		"cursed_earth": {
+			"textures": "textures/blocks/cursed_earth"
+		},
+		"cursed_grass_block": {
+			"textures": "textures/blocks/cursed_grass_block"
+		},
+		"dark_spruce_log": {
+			"textures": "textures/blocks/dark_spruce_log"
+		},
+		"leaves_dark_spruce": {
+			"textures": "textures/blocks/leaves_dark_spruce"
+		}
+	}
+}

@@ -1,0 +1,25 @@
+{
+	"format_version": "1.20.0",
+	"minecraft:block": {
+		"description": {
+			"identifier": "sunrise:leaves_dark_spruce",
+			"menu_category": {"category": "nature","group": "itemGroup.name.leaves"}
+		},
+		"components": {
+			"minecraft:collision_box": true,
+			"minecraft:light_dampening": 15,
+			"minecraft:friction": 0.25,
+			"minecraft:display_name": "block.sunrise:leaves_dark_spruce.name",
+			"minecraft:geometry":"geometry.one_side_block_44x",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "leaves_dark_spruce",
+					"render_method": "blend"
+				}
+			},
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 0.6
+			}
+		}
+	}
+}

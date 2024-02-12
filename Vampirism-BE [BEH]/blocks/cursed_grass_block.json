@@ -1,0 +1,25 @@
+{
+	"format_version": "1.20.0",
+	"minecraft:block": {
+		"description": {
+			"identifier": "sunrise:cursed_grass_block",
+			"menu_category": {"category": "nature","group": "itemGroup.name.grass"}
+		},
+		"components": {
+			"minecraft:collision_box": true,
+			"minecraft:light_dampening": 15,
+			"minecraft:friction": 0.25,
+			"minecraft:display_name": "block.sunrise:cursed_grass_block.name",
+			"minecraft:geometry":"geometry.up_sides_bottom_block",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "cursed_grass_block",
+					"render_method": "opaque"
+				}
+			},
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 0.6
+			}
+		}
+	}
+}

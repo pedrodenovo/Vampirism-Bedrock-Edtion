@@ -1,0 +1,23 @@
+{
+	"format_version": [
+		1,
+		1,
+		0
+	],
+	"sunrise:cursed_grass_block": {
+		"sound": "grass",
+		"textures": "cursed_grass_block"
+	},
+	"sunrise:cursed_earth": {
+		"sound": "sand",
+		"textures": "cursed_earth"
+	},
+	"sunrise:leaves_dark_spruce": {
+		"sound": "grass",
+		"textures": "leaves_dark_spruce"
+	},
+	"sunrise:dark_spruce_log": {
+		"sound": "wood",
+		"textures": "dark_spruce_log"
+	}
+}

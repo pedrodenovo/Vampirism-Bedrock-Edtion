@@ -1,0 +1,33 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:biome": {
+    "description": {
+      "identifier": "mesa_bryce"
+    },
+    "components": {
+      "minecraft:climate": {
+        "downfall": 0.0,
+        "snow_accumulation": [ 0.0, 0.125 ],
+        "temperature": 2.0
+      },
+      "minecraft:mesa_surface": {
+        "bryce_pillars": false,
+        "clay_material": "sunrise:cursed_earth",
+        "sea_floor_depth": 7,
+        "sea_floor_material": "minecraft:cursed_earth",
+        "foundation_material": "minecraft:stone",
+        "hard_clay_material": "sunrise:cursed_grass_block",
+        "has_forest": false,
+        "mid_material": "sunrise:cursed_earth",
+        "top_material":"sunrise:cursed_grass_block",
+        "sea_material": "minecraft:water"
+      },
+      "minecraft:overworld_height": {
+        "noise_type": "default"
+      },
+      "monster": {},
+      "mega": {},
+      "vampire_forest":{}
+    }
+  }
+}

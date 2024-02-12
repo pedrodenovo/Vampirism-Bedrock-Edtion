@@ -1,0 +1,15 @@
+  {
+    "biomes": {
+      "mesa": {
+        "water_surface_color": "#202b2b",
+        "fog_identifier": "sunrise:fog_vampire_forest",
+        "inherit_from_prior_fog": false
+      },
+      "mesa_bryce": {
+        "water_surface_color": "#202b2b",
+        "fog_identifier": "sunrise:fog_vampire_forest",
+        "inherit_from_prior_fog": false
+      }
+    }
+  }
+  
