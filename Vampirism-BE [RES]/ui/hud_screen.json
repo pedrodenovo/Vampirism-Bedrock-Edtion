@@ -1,18 +1,5 @@
 {
   "namespace": "hud",
-  "mob_effects_renderer": {
-    "modifications": [
-      {
-        "array_name": "controls",
-        "operation": "insert_front",
-        "value": [
-          {
-            "effects_display@effects_display.effects_display": {}
-          }
-        ]
-      }
-    ]
-  },
   "root_panel": {
     "modifications": [
       {
