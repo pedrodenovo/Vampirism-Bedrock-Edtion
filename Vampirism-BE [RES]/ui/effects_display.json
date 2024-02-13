@@ -1,0 +1,99 @@
+{
+    "namespace":"effects_display",
+    "effects_display": {
+        "type": "stack_panel",
+        "orientation":"horizontal",
+        "anchor_to":"top_right",
+        "anchor_from":"top_right",
+        "controls": [
+            {
+                "timer_max_vamp_effect@effects_display.timer_max_vamp_effect":{}
+            },
+            {
+                "timer_1min_vamp_effect@effects_display.timer_1min_vamp_effect":{}
+            }
+        ]
+    },
+    "timer_max_vamp_effect":{
+        "$update_string": "timer_max_vamp_effect",
+        "type": "image",
+        "layer": 255,
+        "texture":"textures/ui/effects/effect_background.png",
+          "controls": [
+            {
+                "data_control": {
+                    "type": "panel",
+                    "size": [
+                        0,
+                        0
+                    ],
+                    "bindings": [
+                        {
+                            "binding_name": "#hud_title_text_string"
+                        },
+                        {
+                            "binding_name": "#hud_title_text_string",
+                            "binding_name_override": "#preserved_text"
+                        }
+                    ]
+                }
+            },
+            {"effect_img":{
+                "size":[14,14],
+                "type": "image",
+                "layer": 256,
+                "texture":"textures/ui/effects/sanguinare.png"
+            }}
+        ],
+        "bindings": [
+            {
+                "binding_type": "view",
+                "source_control_name": "data_control",
+                "source_property_name": "(not ((#preserved_text - $update_string) = #hud_title_text_string)))",
+                "target_property_name": "#visible"
+            }
+        ],
+        "size":[22,22]
+    },
+    "timer_1min_vamp_effect":{
+        "$update_string": "timer_1min_vamp_effect",
+        "type": "image",
+        "layer": 255,
+        "texture":"textures/ui/effects/effect_background.png",
+          "controls": [
+            {
+                "data_control": {
+                    "type": "panel",
+                    "size": [
+                        0,
+                        0
+                    ],
+                    "bindings": [
+                        {
+                            "binding_name": "#hud_title_text_string"
+                        },
+                        {
+                            "binding_name": "#hud_title_text_string",
+                            "binding_name_override": "#preserved_text"
+                        }
+                    ]
+                }
+            },
+            {"effect_img":{
+                "size":[14,14],
+                "type": "image",
+                "layer": 256,
+                "texture":"textures/ui/effects/sanguinare.png"
+            }}
+        ],
+        "bindings": [
+            {
+                "binding_type": "view",
+                "source_control_name": "data_control",
+                "source_property_name": "(not ((#preserved_text - $update_string) = #hud_title_text_string)))",
+                "target_property_name": "#visible"
+            }
+        ],
+        "size":[22,22]
+    }
+}

@@ -1,1 +1,1 @@
-scoreboard players remove @s timerToVamp
+tag @s remove timerToVamp

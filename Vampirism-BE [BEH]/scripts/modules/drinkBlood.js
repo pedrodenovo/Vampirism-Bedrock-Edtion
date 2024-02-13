@@ -28,6 +28,8 @@ function drainEntityBlood(entity){
         entity.runCommandAsync("tag @s add drainedBlood_5")
         entity.runCommandAsync("tag @s remove drainedBlood_4")
     }else if (entity.hasTag("drainedBlood_5")){
+        entity.runCommandAsync("tag @s remove drainedBlood_5")
+        entity.runCommandAsync("tag @s add drainedBlood_6")
         entity.runCommandAsync("kill @s")
     }else{
         entity.runCommandAsync("tag @s add drainedBlood_2")
