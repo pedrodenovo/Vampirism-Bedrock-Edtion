@@ -1,0 +1,26 @@
+{
+	"format_version": "1.20.0",
+	"minecraft:block": {
+		"description": {
+			"identifier": "sunrise:dark_stone",
+			"menu_category": {"category": "nature"}
+		},
+		"components": {
+			"minecraft:collision_box": true,
+			"minecraft:light_dampening": 15,
+			"minecraft:friction": 0.4,
+			"minecraft:loot":"loot_tables/blocks/dark_stone.json",
+			"minecraft:display_name": "block.sunrise:dark_stone.name",
+			"minecraft:geometry":"geometry.one_side_block",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "dark_stone",
+					"render_method": "opaque"
+				}
+			},
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 0.75
+			}
+		}
+	}
+}

@@ -4,7 +4,7 @@
 	  "description": {
 		"identifier": "sunrise:dark_spruce_log",
 		"menu_category": {
-		  "category": "items"
+		  "category": "nature"
 		},
 		"properties": {
 		  "bridge:block_rotation": [

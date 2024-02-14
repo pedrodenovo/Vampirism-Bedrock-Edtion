@@ -7,6 +7,9 @@
 		"cursed_earth": {
 			"textures": "textures/blocks/cursed_earth"
 		},
+		"cursed_earth_path": {
+			"textures": "textures/blocks/cursed_earth_path"
+		},
 		"cursed_grass_block": {
 			"textures": "textures/blocks/cursed_grass_block"
 		},
@@ -15,6 +18,12 @@
 		},
 		"leaves_dark_spruce": {
 			"textures": "textures/blocks/leaves_dark_spruce"
+		},
+		"dark_stone": {
+			"textures": "textures/blocks/dark_stone"
+		},
+		"cobbled_dark_stone": {
+			"textures": "textures/blocks/cobbled_dark_stone"
 		}
 	}
 }

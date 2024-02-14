@@ -23,10 +23,12 @@
                 "skin13": "textures/entity/vampire/vampire13",
                 "skin14": "textures/entity/vampire/vampire14",
                 "skin15": "textures/entity/vampire/vampire15",
-                "skin16": "textures/entity/vampire/vampire16"
+                "skin16": "textures/entity/vampire/vampire16",
+                "bat": "textures/entity/bat"
             },
             "geometry": {
-                "default": "geometry.mas"
+                "default": "geometry.mas",
+                "bat": "geometry.bat"
             },
             "spawn_egg": {
                 "texture": "spawnegg_vampire",

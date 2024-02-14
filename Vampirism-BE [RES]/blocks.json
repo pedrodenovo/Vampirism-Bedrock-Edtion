@@ -12,6 +12,10 @@
 		"sound": "sand",
 		"textures": "cursed_earth"
 	},
+	"sunrise:cursed_earth_path": {
+		"sound": "grass",
+		"textures": "cursed_earth_path"
+	},
 	"sunrise:leaves_dark_spruce": {
 		"sound": "grass",
 		"textures": "leaves_dark_spruce"
@@ -19,5 +23,13 @@
 	"sunrise:dark_spruce_log": {
 		"sound": "wood",
 		"textures": "dark_spruce_log"
+	},
+	"sunrise:cobbled_dark_stone": {
+		"sound": "stone",
+		"textures": "cobbled_dark_stone"
+	},
+	"sunrise:dark_stone": {
+		"sound": "stone",
+		"textures": "dark_stone"
 	}
 }
