@@ -11,7 +11,7 @@
 			"minecraft:friction": 0.4,
 			"minecraft:loot":"loot_tables/blocks/cursed_grass_block.json",
 			"minecraft:display_name": "block.sunrise:cursed_earth_path.name",
-			"minecraft:geometry":"geometry.up_sides_bottom_block",
+			"minecraft:geometry":"geometry.up_sides_bottom_path_block",
 			"minecraft:material_instances": {
 				"*": {
 					"texture": "cursed_earth_path",

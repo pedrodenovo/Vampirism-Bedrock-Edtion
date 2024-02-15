@@ -30,6 +30,36 @@
 					]
 				}
 			]
+		},
+		{
+			"description": {
+				"identifier": "geometry.up_sides_bottom_path_block",
+				"texture_width": 16,
+				"texture_height": 16,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "bb_main",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-8, 0, -8],
+							"size": [16, 15, 16],
+							"uv": {
+								"north": {"uv": [8, 0.5], "uv_size": [8, 7.5]},
+								"east": {"uv": [8, 0.5], "uv_size": [8, 7.5]},
+								"south": {"uv": [8, 0.5], "uv_size": [8, 7.5]},
+								"west": {"uv": [8, 0.5], "uv_size": [8, 7.5]},
+								"up": {"uv": [8, 8], "uv_size": [-8, -8]},
+								"down": {"uv": [16, 16], "uv_size": [-8, -8]}
+							}
+						}
+					]
+				}
+			]
 		}
 	]
 }

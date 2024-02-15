@@ -2,7 +2,7 @@
    "format_version":"1.10.0",
    "minecraft:entity":{
       "description":{
-         "identifier":"sunrise:vampire",
+         "identifier":"sunrise:hunter",
          "is_spawnable":true,
          "is_summonable":true,
          "is_experimental":false
@@ -10,15 +10,6 @@
       "component_groups":{
          "in_foresta":{
             
-         },
-         "out_floresta":{
-            "minecraft:behavior.flee_sun":{
-               "priority":2,
-               "speed_multiplier":2
-            },
-            "minecraft:burns_in_daylight":{
-               
-            }
          },
          "minecraft:skin1":{
             "minecraft:variant":{
@@ -89,53 +80,17 @@
             "minecraft:variant":{
                "value":13
             }
-         },
-         "minecraft:skin15":{
-            "minecraft:variant":{
-               "value":14
-            }
-         },
-         "minecraft:skin16":{
-            "minecraft:variant":{
-               "value":15
-            }
          }
       },
       "components":{
          "minecraft:environment_sensor":{
             "triggers":[
-               {
-                  "event":"in_foresta",
-                  "filters":{
-                     "all_of":[
-                        {
-                           "test":"has_biome_tag",
-                           "subject":"self",
-                           "value":"floresta_negra"
-                        }
-                     ]
-                  }
-               },
-               {
-                  "event":"fora_foresta",
-                  "filters":{
-                     "all_of":[
-                        {
-                           "operator":"!=",
-                           "test":"has_biome_tag",
-                           "subject":"self",
-                           "value":"floresta_negra"
-                        }
-                     ]
-                  }
-               }
             ]
          },
          "minecraft:type_family":{
             "family":[
-               "undead",
-               "monster",
-               "vampire"
+               "human",
+               "hunter"
             ]
          },
          "minecraft:breathable":{
@@ -239,7 +194,7 @@
             
          },
          "minecraft:loot":{
-            "table":"loot_tables/entities/vampire.json"
+            "table":"loot_tables/entities/hunter.json"
          },
          "minecraft:behavior.hurt_by_target":{
             "priority":3
@@ -456,22 +411,6 @@
                         "add":{
                            "component_groups":[
                               "minecraft:skin14"
-                           ]
-                        }
-                     },
-                     {
-                        "weight":50,
-                        "add":{
-                           "component_groups":[
-                              "minecraft:skin15"
-                           ]
-                        }
-                     },
-                     {
-                        "weight":50,
-                        "add":{
-                           "component_groups":[
-                              "minecraft:skin16"
                            ]
                         }
                      },

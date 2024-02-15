@@ -2,34 +2,35 @@
     "format_version": "1.8.0",
     "minecraft:client_entity": {
         "description": {
-            "identifier": "sunrise:vampire",
+            "identifier": "sunrise:hunter",
             "min_engine_version": "1.8.0",
             "materials": {
                 "default": "stray"
             },
             "textures": {
-                "skin1": "textures/entity/vampire/vampire1",
-                "skin2": "textures/entity/vampire/vampire2",
-                "skin3": "textures/entity/vampire/vampire3",
-                "skin4": "textures/entity/vampire/vampire4",
-                "skin5": "textures/entity/vampire/vampire5",
-                "skin6": "textures/entity/vampire/vampire6",
-                "skin7": "textures/entity/vampire/vampire7",
-                "skin8": "textures/entity/vampire/vampire8",
-                "skin9": "textures/entity/vampire/vampire9",
-                "skin10": "textures/entity/vampire/vampire10",
-                "skin11": "textures/entity/vampire/vampire11",
-                "skin12": "textures/entity/vampire/vampire12",
-                "skin13": "textures/entity/vampire/vampire13",
-                "skin14": "textures/entity/vampire/vampire14",
-                "skin15": "textures/entity/vampire/vampire15",
-                "skin16": "textures/entity/vampire/vampire16"
+                "skin1": "textures/entity/hunter/hunter",
+                "skin2": "textures/entity/hunter/hunter2",
+                "skin3": "textures/entity/hunter/hunter3",
+                "skin4": "textures/entity/hunter/hunter4",
+                "skin5": "textures/entity/hunter/hunter5",
+                "skin6": "textures/entity/hunter/hunter6",
+                "skin7": "textures/entity/hunter/hunter7",
+                "skin8": "textures/entity/hunter/hunter8",
+                "skin9": "textures/entity/hunter/hunter9",
+                "skin10": "textures/entity/hunter/hunter10",
+                "skin11": "textures/entity/hunter/hunter11",
+                "skin12": "textures/entity/hunter/hunter12",
+                "skin13": "textures/entity/hunter/hunter13",
+                "skin14": "textures/entity/hunter/hunter14",
+                "skin15": "textures/entity/hunter/hunter15",
+                "skin16": "textures/entity/hunter/hunter16"
             },
             "geometry": {
-                "default": "geometry.mas"
+                "default": "geometry.mas",
+                "slim": "geometry.slim"
             },
             "spawn_egg": {
-                "texture": "spawnegg_vampire",
+                "texture": "spawnegg_hunter",
                 "texture_index": 0
             },
             "scripts": {

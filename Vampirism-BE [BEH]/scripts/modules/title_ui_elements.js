@@ -32,9 +32,9 @@ server.system.runInterval(eventData => {
 function _vp_effects(player){
     let vp_effects = ""
     if (player.hasTag("timerToVamp") && player.runCommand("testfor @s[scores={timerToVamp=0..1200}]") .successCount == 1){
-        vp_effects += "timer_max_vamp_effect"
+        vp_effects += "timer_max_vamp_effect "
     } else if (player.hasTag("timerToVamp") && player.runCommand("testfor @s[scores={timerToVamp=1201..}]") .successCount == 1){
-        vp_effects += "timer_1min_vamp_effect"
+        vp_effects += "timer_1min_vamp_effect "
     }
     return vp_effects
 }

@@ -8,7 +8,6 @@ function calcularDistancia(x1, y1, z1, x2, y2, z2) {
 server.world.afterEvents.itemUse.subscribe(eventData => {
     let blockLoc = eventData.source.getBlockFromViewDirection().block.location
     let playerLoc = eventData.source.location
-    eventData.source.runCommand("say "+calcularDistancia(playerLoc.x, playerLoc.y, playerLoc.z, blockLoc.x, blockLoc.y, blockLoc.z))
     if (calcularDistancia(playerLoc.x, playerLoc.y, playerLoc.z, blockLoc.x, blockLoc.y, blockLoc.z) <= 5) {
         if (eventData.source.runCommand(`testforblock ${blockLoc.x} ${blockLoc.y} ${blockLoc.z} sunrise:cursed_grass_block`)) {
             if (eventData.itemStack.typeId.includes("_shovel")) {

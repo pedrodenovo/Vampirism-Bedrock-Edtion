@@ -1,0 +1,26 @@
+## entity ##
+entity.sunrise:hunter.name=Hunter #V0.0.1
+entity.sunrise:vampire.name=Vampire #V0.0.3
+
+## item ##
+item.sunrise:blood_bottle_0.name=Blood bottle [0/9] #V0.0.1
+item.sunrise:blood_bottle_1.name=Blood bottle [1/9] #V0.0.1
+item.sunrise:blood_bottle_2.name=Blood bottle [2/9] #V0.0.1
+item.sunrise:blood_bottle_3.name=Blood bottle [3/9] #V0.0.1
+item.sunrise:blood_bottle_4.name=Blood bottle [4/9] #V0.0.1
+item.sunrise:blood_bottle_5.name=Blood bottle [5/9] #V0.0.1
+item.sunrise:blood_bottle_6.name=Blood bottle [6/9] #V0.0.1
+item.sunrise:blood_bottle_7.name=Blood bottle [7/9] #V0.0.1
+item.sunrise:blood_bottle_8.name=Blood bottle [8/9] #V0.0.1
+item.sunrise:blood_bottle_9.name=Blood bottle [9/9] #V0.0.1
+item.sunrise:blood_bottle_10.name=Blood bottle [10/9] #V0.0.0
+item.sunrise:vampire_fang.name=vampire fang #V0.0.1
+
+## block ##
+tile.sunrise:cobbled_dark_stone.name=Cobbled dark stone
+tile.sunrise:cursed_earth_path.name=Cursed earth path
+tile.sunrise:cursed_earth.name=Cursed earth
+tile.sunrise:cursed_grass_block.name=Cursed grass block
+tile.sunrise:dark_spruce_log.name=Dark spruce log
+tile.sunrise:dark_stone.name=Dark stone
+tile.sunrise:leaves_dark_spruce.name=Leaves dark spruce

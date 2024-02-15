@@ -1,0 +1,26 @@
+## entity ##
+entity.sunrise:hunter.name=Caçador #V0.0.1
+entity.sunrise:vampire.name=Vampiro #V0.0.3
+
+## item ##
+item.sunrise:blood_bottle_0.name=Garrafa de sangue [0/9] #V0.0.1
+item.sunrise:blood_bottle_1.name=Garrafa de sangue [1/9] #V0.0.1
+item.sunrise:blood_bottle_2.name=Garrafa de sangue [2/9] #V0.0.1
+item.sunrise:blood_bottle_3.name=Garrafa de sangue [3/9] #V0.0.1
+item.sunrise:blood_bottle_4.name=Garrafa de sangue [4/9] #V0.0.1
+item.sunrise:blood_bottle_5.name=Garrafa de sangue [5/9] #V0.0.1
+item.sunrise:blood_bottle_6.name=Garrafa de sangue [6/9] #V0.0.1
+item.sunrise:blood_bottle_7.name=Garrafa de sangue [7/9] #V0.0.1
+item.sunrise:blood_bottle_8.name=Garrafa de sangue [8/9] #V0.0.1
+item.sunrise:blood_bottle_9.name=Garrafa de sangue [9/9] #V0.0.1
+item.sunrise:blood_bottle_10.name=Garrafa de sangue [10/9] #V0.0.0
+item.sunrise:vampire_fang.name=Dente de vampiro #V0.0.1
+
+## block ##
+tile.sunrise:cobbled_dark_stone.name=Pedra escura talhada
+tile.sunrise:cursed_earth_path.name=Caminho de terra amaldiçoada
+tile.sunrise:cursed_earth.name=Terra amaldiçoada
+tile.sunrise:cursed_grass_block.name=Bloco de grama amaldiçoada
+tile.sunrise:dark_spruce_log.name=Tronco de abeto escuro
+tile.sunrise:dark_stone.name=Pedra escura
+tile.sunrise:leaves_dark_spruce.name=Folhas de abeto escuro
