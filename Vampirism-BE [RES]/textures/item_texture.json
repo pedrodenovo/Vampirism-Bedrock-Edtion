@@ -1,42 +1,79 @@
 {
-   "resource_pack_name":"Vampirism - Bedrock Edtion",
-   "texture_name":"atlas.items",
-   "texture_data":{
-      "blood_bottle_0":{
-         "textures":"textures/items/blood_bottle_0"
+   "resource_pack_name": "Vampirism - Bedrock Edtion",
+   "texture_name": "atlas.items",
+   "texture_data": {
+      "blood_bottle_0": {
+         "textures": "textures/items/blood_bottle_0"
       },
-      "blood_bottle_1":{
-         "textures":"textures/items/blood_bottle_1"
+      "blood_bottle_1": {
+         "textures": "textures/items/blood_bottle_1"
       },
-      "blood_bottle_2":{
-         "textures":"textures/items/blood_bottle_2"
+      "blood_bottle_2": {
+         "textures": "textures/items/blood_bottle_2"
       },
-      "blood_bottle_3":{
-         "textures":"textures/items/blood_bottle_3"
+      "blood_bottle_3": {
+         "textures": "textures/items/blood_bottle_3"
       },
-      "blood_bottle_4":{
-         "textures":"textures/items/blood_bottle_4"
+      "blood_bottle_4": {
+         "textures": "textures/items/blood_bottle_4"
       },
-      "blood_bottle_5":{
-         "textures":"textures/items/blood_bottle_5"
+      "blood_bottle_5": {
+         "textures": "textures/items/blood_bottle_5"
       },
-      "blood_bottle_6":{
-         "textures":"textures/items/blood_bottle_6"
+      "blood_bottle_6": {
+         "textures": "textures/items/blood_bottle_6"
       },
-      "blood_bottle_7":{
-         "textures":"textures/items/blood_bottle_7"
+      "blood_bottle_7": {
+         "textures": "textures/items/blood_bottle_7"
       },
-      "blood_bottle_8":{
-         "textures":"textures/items/blood_bottle_8"
+      "blood_bottle_8": {
+         "textures": "textures/items/blood_bottle_8"
       },
-      "blood_bottle_9":{
-         "textures":"textures/items/blood_bottle_9"
+      "blood_bottle_9": {
+         "textures": "textures/items/blood_bottle_9"
       },
-      "vampire_fang":{
-         "textures":"textures/items/vampire_fang"
+      "vampire_fang": {
+         "textures": "textures/items/vampire_fang"
       },
-      "spawnegg_vampire":{
-         "textures":"textures/items/spawnegg_vampire"
+      "vampire_book": {
+         "textures": "textures/items/vampire_book"
+      },
+
+      "arrow_clip0": {
+         "textures": "textures/items/arrow_clip0"
+      },
+      "arrow_clip1": {
+         "textures": "textures/items/arrow_clip1"
+      },
+      "arrow_clip2": {
+         "textures": "textures/items/arrow_clip2"
+      },
+      "arrow_clip3": {
+         "textures": "textures/items/arrow_clip3"
+      },
+      "pure_blood_0": {
+         "textures": "textures/items/pure_blood_0"
+      },
+      "pure_blood_1": {
+         "textures": "textures/items/pure_blood_1"
+      },
+      "pure_blood_2": {
+         "textures": "textures/items/pure_blood_2"
+      },
+      "pure_blood_3": {
+         "textures": "textures/items/pure_blood_3"
+      },
+      "pure_blood_4": {
+         "textures": "textures/items/pure_blood_4"
+      },
+      "weak_human_heart": {
+         "textures": "textures/items/weak_human_heart"
+      },
+      "human_heart": {
+         "textures": "textures/items/human_heart"
+      },
+      "spawnegg_vampire": {
+         "textures": "textures/items/spawnegg_vampire"
       }
    }
 }

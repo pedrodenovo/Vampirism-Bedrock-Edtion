@@ -22,6 +22,19 @@
 		"dark_stone": {
 			"textures": "textures/blocks/dark_stone"
 		},
+		"dark_stone_tiles": {
+			"textures": "textures/blocks/dark_stone_tiles"
+		},		"polished_dark_stone": {
+			"textures": "textures/blocks/polished_dark_stone"
+		},
+		"dark_spruce_planks": {
+			"textures": "textures/blocks/dark_spruce_planks"
+		},
+		"chiseled_dark_stone_bricks": {
+			"textures": "textures/blocks/chiseled_dark_stone_bricks"
+		},		"vampire_orchid": {
+			"textures": "textures/blocks/vampire_orchid"
+		},
 		"cobbled_dark_stone": {
 			"textures": "textures/blocks/cobbled_dark_stone"
 		}

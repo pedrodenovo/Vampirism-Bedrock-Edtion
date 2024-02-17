@@ -20,13 +20,33 @@
 		"sound": "grass",
 		"textures": "leaves_dark_spruce"
 	},
+	"sunrise:vampire_orchid": {
+		"sound": "grass",
+		"textures": "vampire_orchid"
+	},
 	"sunrise:dark_spruce_log": {
 		"sound": "wood",
 		"textures": "dark_spruce_log"
 	},
+	"sunrise:polished_dark_stone": {
+		"sound": "stone",
+		"textures": "polished_dark_stone"
+	},
+	"sunrise:dark_spruce_planks": {
+		"sound": "wood",
+		"textures": "dark_spruce_planks"
+	},
 	"sunrise:cobbled_dark_stone": {
 		"sound": "stone",
 		"textures": "cobbled_dark_stone"
+	},
+	"sunrise:chiseled_dark_stone_bricks": {
+		"sound": "stone",
+		"textures": "chiseled_dark_stone_bricks"
+	},
+	"sunrise:dark_stone_tiles": {
+		"sound": "stone",
+		"textures": "dark_stone_tiles"
 	},
 	"sunrise:dark_stone": {
 		"sound": "stone",

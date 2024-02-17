@@ -1,0 +1,26 @@
+{
+	"format_version": "1.20.0",
+	"minecraft:block": {
+		"description": {
+			"identifier": "sunrise:vampire_orchid",
+			"menu_category": {"category": "nature"}
+		},
+		"components": {
+			"minecraft:collision_box": true,
+			"minecraft:light_dampening": 15,
+			"minecraft:friction": 0.4,
+			"minecraft:loot":"loot_tables/blocks/vampire_orchid.json",
+			"minecraft:display_name": "block.sunrise:vampire_orchid.name",
+			"minecraft:geometry":"geometry.plant",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "vampire_orchid",
+					"render_method": "opaque"
+				}
+			},
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 0.75
+			}
+		}
+	}
+}

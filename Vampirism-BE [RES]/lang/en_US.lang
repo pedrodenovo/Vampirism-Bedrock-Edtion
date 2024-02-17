@@ -1,20 +1,32 @@
 ## entity ##
-entity.sunrise:hunter.name=Hunter #V0.0.1
-entity.sunrise:vampire.name=Vampire #V0.0.3
+entity.sunrise:hunter.name=Hunter
+entity.sunrise:vampire.name=Vampire
 
 ## item ##
-item.sunrise:blood_bottle_0.name=Blood bottle [0/9] #V0.0.1
-item.sunrise:blood_bottle_1.name=Blood bottle [1/9] #V0.0.1
-item.sunrise:blood_bottle_2.name=Blood bottle [2/9] #V0.0.1
-item.sunrise:blood_bottle_3.name=Blood bottle [3/9] #V0.0.1
-item.sunrise:blood_bottle_4.name=Blood bottle [4/9] #V0.0.1
-item.sunrise:blood_bottle_5.name=Blood bottle [5/9] #V0.0.1
-item.sunrise:blood_bottle_6.name=Blood bottle [6/9] #V0.0.1
-item.sunrise:blood_bottle_7.name=Blood bottle [7/9] #V0.0.1
-item.sunrise:blood_bottle_8.name=Blood bottle [8/9] #V0.0.1
-item.sunrise:blood_bottle_9.name=Blood bottle [9/9] #V0.0.1
-item.sunrise:blood_bottle_10.name=Blood bottle [10/9] #V0.0.0
-item.sunrise:vampire_fang.name=vampire fang #V0.0.1
+item.sunrise:blood_bottle_0.name=Blood bottle [0/9]
+item.sunrise:blood_bottle_1.name=Blood bottle [1/9]
+item.sunrise:blood_bottle_2.name=Blood bottle [2/9]
+item.sunrise:blood_bottle_3.name=Blood bottle [3/9]
+item.sunrise:blood_bottle_4.name=Blood bottle [4/9]
+item.sunrise:blood_bottle_5.name=Blood bottle [5/9]
+item.sunrise:blood_bottle_6.name=Blood bottle [6/9]
+item.sunrise:blood_bottle_7.name=Blood bottle [7/9]
+item.sunrise:blood_bottle_8.name=Blood bottle [8/9]
+item.sunrise:blood_bottle_9.name=Blood bottle [9/9]
+item.sunrise:blood_bottle_10.name=Blood bottle [10/9] 
+item.sunrise:vampire_fang.name=Vampire fang
+item.sunrise:vampire_book.name=Vampire book
+item.sunrise:arrow_clip0.name=Arrow clip
+item.sunrise:arrow_clip1.name=Arrow clip
+item.sunrise:arrow_clip2.name=Arrow clip
+item.sunrise:arrow_clip3.name=Arrow clip
+item.sunrise:pure_blood_0.name=Pure blood [0/4]
+item.sunrise:pure_blood_1.name=Pure blood [1/4]
+item.sunrise:pure_blood_2.name=Pure blood [2/4]
+item.sunrise:pure_blood_3.name=Pure blood [3/4]
+item.sunrise:pure_blood_4.name=Pure blood [4/4]
+item.sunrise:weak_human_heart.name=Weak human heart
+item.sunrise:human_heart.name=Human heart
 
 ## block ##
 tile.sunrise:cobbled_dark_stone.name=Cobbled dark stone
@@ -24,3 +36,10 @@ tile.sunrise:cursed_grass_block.name=Cursed grass block
 tile.sunrise:dark_spruce_log.name=Dark spruce log
 tile.sunrise:dark_stone.name=Dark stone
 tile.sunrise:leaves_dark_spruce.name=Leaves dark spruce
+tile.sunrise:dark_stone_tiles.name=Dark stone tiles
+tile.sunrise:dark_spruce_planks.name=Dark spruce planks
+tile.sunrise:vampire_orchid.name=Vampire orchid
+tile.sunrise:polished_dark_stone.name=Polished dark stone
+tile.sunrise:chiseled_dark_stone_bricks.name=Chiseled dark stone bricks
+
+
