@@ -18,7 +18,7 @@
             }
          },     
          "minecraft:display_name": {
-        "value":"item.sunrise:blood_bottle_7.name"
+        "value":"item.sunrise:blood_bottle_7"
       },
          "minecraft:max_stack_size": 16,
          "minecraft:use_duration": 1.5,

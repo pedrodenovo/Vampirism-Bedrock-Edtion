@@ -7,7 +7,7 @@
 		},
 		"components": {
 			"minecraft:can_destroy_in_creative": false,
-			"minecraft:hand_equipped": true,
+			"minecraft:hand_equipped": false,
 			"minecraft:icon": {
 				"texture": "arrow_clip2"
 			},

@@ -2,6 +2,42 @@
    "resource_pack_name": "Vampirism - Bedrock Edtion",
    "texture_name": "atlas.items",
    "texture_data": {
+      "blood_bucket": {
+         "textures": "textures/items/blood_bucket"
+      },
+      "blood_eye": {
+         "textures": "textures/items/blood_eye"
+      },
+      "blood_infused_enhanced_iron_ingot": {
+         "textures": "textures/items/blood_infused_enhanced_iron_ingot"
+      },
+      "blood_infused_iron_ingot": {
+         "textures": "textures/items/blood_infused_iron_ingot"
+      },
+      "cure_apple": {
+         "textures": "textures/items/cure_apple"
+      },
+      "cursed_spruce_boat": {
+         "textures": "textures/items/cursed_spruce_boat"
+      },
+      "cursed_spruce_chest_boat": {
+         "textures": "textures/items/cursed_spruce_chest_boat"
+      },
+      "cursed_spruce_door": {
+         "textures": "textures/items/cursed_spruce_door"
+      },
+      "dark_spruce_door": {
+         "textures": "textures/items/dark_spruce_door"
+      },
+      "dark_spruce_chest_boat": {
+         "textures": "textures/items/dark_spruce_chest_boat"
+      },
+      "dark_spruce_boat": {
+         "textures": "textures/items/dark_spruce_boat"
+      },
+      "vampire_cloak_black_red": {
+         "textures": "textures/items/vampire_cloak_black_red"
+      },
       "blood_bottle_0": {
          "textures": "textures/items/blood_bottle_0"
       },
@@ -38,7 +74,6 @@
       "vampire_book": {
          "textures": "textures/items/vampire_book"
       },
-
       "arrow_clip0": {
          "textures": "textures/items/arrow_clip0"
       },

@@ -3,7 +3,7 @@
    "minecraft:item": {
       "description": {
          "category": "Items",
-         "identifier": "sunrise:blood_bottle_4"
+         "identifier": "sunrise:cure_apple"
       },
       "components": {
          "tag:sangue": {},
@@ -18,13 +18,13 @@
             }
          },     
          "minecraft:display_name": {
-        "value":"item.sunrise:blood_bottle_4"
+        "value":"item.sunrise:cure_apple"
       },
          "minecraft:max_stack_size": 16,
          "minecraft:use_duration": 1.5,
          "minecraft:use_animation": "drink",
          "minecraft:icon": {
-            "texture": "blood_bottle_4"
+            "texture": "cure_apple"
          },
          "minecraft:creative_category": {
             "parent": "itemGroup.sangue"
@@ -35,7 +35,7 @@
          "drink": {
             "run_command": {
                "command": [
-                  "scoreboard players add @p blood 8"
+                  "scoreboard players add @p blood 18"
                ]
             }
          }

@@ -3,14 +3,14 @@
 	"minecraft:block": {
 		"description": {
 			"identifier": "sunrise:cursed_earth_path",
-			"menu_category": {"category": "nature","group": "itemGroup.name.grass"}
+			"menu_category": {"category": "nature","group": "itemGroup.grass"}
 		},
 		"components": {
 			"minecraft:collision_box": true,
 			"minecraft:light_dampening": 15,
 			"minecraft:friction": 0.4,
 			"minecraft:loot":"loot_tables/blocks/cursed_grass_block.json",
-			"minecraft:display_name": "block.sunrise:cursed_earth_path.name",
+			"minecraft:display_name": "block.sunrise:cursed_earth_path",
 			"minecraft:geometry":"geometry.up_sides_bottom_path_block",
 			"minecraft:material_instances": {
 				"*": {

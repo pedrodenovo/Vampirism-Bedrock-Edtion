@@ -9,7 +9,7 @@
 			"minecraft:collision_box": true,
 			"minecraft:light_dampening": 15,
 			"minecraft:friction": 0.4,
-			"minecraft:display_name": "block.sunrise:cobbled_dark_stone.name",
+			"minecraft:display_name": "block.sunrise:cobbled_dark_stone",
 			"minecraft:geometry":"geometry.one_side_block",
 			"minecraft:material_instances": {
 				"*": {

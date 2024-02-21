@@ -28,6 +28,7 @@
 		"minecraft:collision_box": true,
 		"minecraft:light_emission": 0,
 		"minecraft:light_dampening": 15,
+		"minecraft:display_name": "block.sunrise:dark_spruce_log",
 		"minecraft:geometry": "geometry.up_sides_bottom_block",
 			"minecraft:material_instances": {
 				"*": {

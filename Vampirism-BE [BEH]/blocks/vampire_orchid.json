@@ -10,7 +10,7 @@
 			"minecraft:light_dampening": 15,
 			"minecraft:friction": 0.4,
 			"minecraft:loot":"loot_tables/blocks/vampire_orchid.json",
-			"minecraft:display_name": "block.sunrise:vampire_orchid.name",
+			"minecraft:display_name": "block.sunrise:vampire_orchid",
 			"minecraft:geometry":"geometry.plant",
 			"minecraft:material_instances": {
 				"*": {

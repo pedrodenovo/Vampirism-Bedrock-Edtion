@@ -14,7 +14,7 @@
          "out_floresta":{
             "minecraft:behavior.flee_sun":{
                "priority":2,
-               "speed_multiplier":2
+               "speed_multiplier":1.1
             },
             "minecraft:burns_in_daylight":{
                
@@ -170,31 +170,6 @@
          "minecraft:behavior.restrict_open_door":{
             "priority":5
          },
-         "minecraft:behavior.move_towards_restriction":{
-            "priority":7,
-            "speed_multiplier":0.6
-         },
-         "minecraft:behavior.share_items":{
-            "priority":8,
-            "max_dist":3,
-            "goal_radius":2,
-            "speed_multiplier":0.5,
-            "entity_types":[
-               {
-                  "filters":{
-                     "test":"is_family",
-                     "subject":"other",
-                     "value":"villager"
-                  }
-               }
-            ]
-         },
-         "minecraft:behavior.pickup_items":{
-            "priority":9,
-            "max_dist":3,
-            "goal_radius":2,
-            "speed_multiplier":0.5
-         },
          "minecraft:movement.basic": {},
          "minecraft:navigation.walk": {
            "is_amphibious": true,
@@ -243,27 +218,6 @@
          },
          "minecraft:behavior.hurt_by_target":{
             "priority":3
-         },
-         "minecraft:behavior.avoid_mob_type":{
-            "priority":5,
-            "entity_types":[
-               {
-                  "filters":{
-                     "any_of":[
-                        {
-                           "value":"sunrise:x",
-                           "test":"has_equipment",
-                           "domain":"any",
-                           "subject":"other",
-                           "operator":"=="
-                        }
-                     ]
-                  },
-                  "max_dist":4,
-                  "walk_speed_multiplier":1,
-                  "sprint_speed_multiplier":1.2
-               }
-            ]
          },
          "minecraft:scheduler":{
             "min_delay_secs":0,

@@ -10,7 +10,7 @@
 			"minecraft:light_dampening": 15,
 			"minecraft:friction": 0.4,
 			"minecraft:loot":"loot_tables/blocks/dark_stone.json",
-			"minecraft:display_name": "block.sunrise:dark_stone.name",
+			"minecraft:display_name": "block.sunrise:dark_stone",
 			"minecraft:geometry":"geometry.one_side_block",
 			"minecraft:material_instances": {
 				"*": {
