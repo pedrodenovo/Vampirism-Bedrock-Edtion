@@ -6,8 +6,8 @@
 			"menu_category": {"category": "nature"}
 		},
 		"components": {
-			"minecraft:collision_box": true,
-			"minecraft:light_dampening": 15,
+			"minecraft:collision_box": false,
+			"minecraft:light_dampening": 0,
 			"minecraft:friction": 0.4,
 			"minecraft:loot":"loot_tables/blocks/vampire_orchid.json",
 			"minecraft:display_name": "block.sunrise:vampire_orchid",
@@ -15,7 +15,7 @@
 			"minecraft:material_instances": {
 				"*": {
 					"texture": "vampire_orchid",
-					"render_method": "opaque"
+					"render_method": "blend"
 				}
 			},
 			"minecraft:destructible_by_mining": {

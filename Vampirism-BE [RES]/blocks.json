@@ -20,9 +20,21 @@
 		"sound": "grass",
 		"textures": "leaves_dark_spruce"
 	},
+	"sunrise:altar_infusion": {
+		"sound": "grass",
+		"textures": "altar_infusion"
+	},
+	"sunrise:blood_container": {
+		"sound": "grass",
+		"textures": "blood_container"
+	},
 	"sunrise:vampire_orchid": {
 		"sound": "grass",
 		"textures": "vampire_orchid"
+	},
+	"sunrise:altar_inspiration": {
+		"sound": "wood",
+		"textures": "altar_inspiration"
 	},
 	"sunrise:dark_spruce_log": {
 		"sound": "wood",
@@ -44,9 +56,33 @@
 		"sound": "stone",
 		"textures": "chiseled_dark_stone_bricks"
 	},
+	"sunrise:altar_tip": {
+		"sound": "stone",
+		"textures": "altar_tip"
+	},
 	"sunrise:dark_stone_tiles": {
 		"sound": "stone",
 		"textures": "dark_stone_tiles"
+	},
+	"sunrise:altar_pillar_bone": {
+		"sound": "stone",
+		"textures": "altar_pillar_bone"
+	},
+	"sunrise:altar_pillar_gold": {
+		"sound": "stone",
+		"textures": "altar_pillar_gold"
+	},
+	"sunrise:altar_pillar_iron": {
+		"sound": "stone",
+		"textures": "altar_pillar_iron"
+	},
+	"sunrise:altar_pillar_stonebrick": {
+		"sound": "stone",
+		"textures": "altar_pillar_stonebrick"
+	},
+	"sunrise:altar_pillar": {
+		"sound": "stone",
+		"textures": "altar_pillar_stonebrick"
 	},
 	"sunrise:dark_stone": {
 		"sound": "stone",

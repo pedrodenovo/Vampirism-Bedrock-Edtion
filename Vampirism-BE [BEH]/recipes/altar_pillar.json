@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "sunrise:altar_pillar"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "ABA",
+      "BBB",
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:stonebrick",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "sunrise:altar_pillar",
+      "count": 1
+    }
+  }
+}

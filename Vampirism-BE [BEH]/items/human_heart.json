@@ -1,0 +1,22 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "sunrise:human_heart",
+			"category": "items"
+		},
+		"components": {
+			"minecraft:can_destroy_in_creative": false,
+			"minecraft:hand_equipped": false,
+			"minecraft:icon": {
+				"texture": "human_heart"
+			},
+			"minecraft:on_use": {"on_use": {"event": "on_tool_used"}},
+			"minecraft:max_stack_size": 1
+		},
+		"events": {
+			"on_tool_used": {
+			}
+		}
+	}
+}

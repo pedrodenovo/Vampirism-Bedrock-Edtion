@@ -3,11 +3,11 @@
 	"minecraft:block": {
 		"description": {
 			"identifier": "sunrise:dark_stone_tiles",
-			"menu_category": {"category": "nature"}
+			"menu_category": {"category": "construction"}
 		},
 		"components": {
 			"minecraft:collision_box": true,
-			"minecraft:light_dampening": 15,
+			"minecraft:light_dampening": 10,
 			"minecraft:friction": 0.4,
 			"minecraft:display_name": "block.sunrise:dark_stone_tiles",
 			"minecraft:geometry":"geometry.one_side_block",

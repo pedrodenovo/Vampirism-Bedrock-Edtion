@@ -1,0 +1,30 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "sunrise:altar_inspiration"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "BCB",
+      "BAB",
+      "BBB"
+    ],
+    "key": {
+      "A": {
+        "item": "sunrise:blood_container",
+        "data": 0
+      },
+      "B": {
+        "item": "minecraft:planks",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "sunrise:altar_inspiration",
+      "count": 1
+    }
+  }
+}

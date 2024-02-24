@@ -4,6 +4,27 @@
 	"resource_pack_name": "Vampirism - Bedrock Edtion",
 	"texture_name": "atlas.terrain",
 	"texture_data": {
+		"altar_inspiration": {
+			"textures": "textures/blocks/altar_inspiration"
+		},
+		"altar_tip": {
+			"textures": "textures/blocks/altar_tip"
+		},
+		"blood_container": {
+			"textures": "textures/blocks/blood_container"
+		},
+		"altar_pillar_bone": {
+			"textures": "textures/blocks/altar_pillar_bone"
+		},
+		"altar_pillar_gold": {
+			"textures": "textures/blocks/altar_pillar_gold"
+		},
+		"altar_pillar_iron": {
+			"textures": "textures/blocks/altar_pillar_iron"
+		},
+		"altar_pillar_stonebrick": {
+			"textures": "textures/blocks/altar_pillar_stonebrick"
+		},
 		"cursed_earth": {
 			"textures": "textures/blocks/cursed_earth"
 		},
@@ -16,6 +37,9 @@
 		"dark_spruce_log": {
 			"textures": "textures/blocks/dark_spruce_log"
 		},
+		"altar_infusion": {
+			"textures": "textures/blocks/altar_infusion"
+		},
 		"leaves_dark_spruce": {
 			"textures": "textures/blocks/leaves_dark_spruce"
 		},
@@ -24,7 +48,8 @@
 		},
 		"dark_stone_tiles": {
 			"textures": "textures/blocks/dark_stone_tiles"
-		},		"polished_dark_stone": {
+		},
+		"polished_dark_stone": {
 			"textures": "textures/blocks/polished_dark_stone"
 		},
 		"dark_spruce_planks": {
@@ -32,7 +57,8 @@
 		},
 		"chiseled_dark_stone_bricks": {
 			"textures": "textures/blocks/chiseled_dark_stone_bricks"
-		},		"vampire_orchid": {
+		},
+		"vampire_orchid": {
 			"textures": "textures/blocks/vampire_orchid"
 		},
 		"cobbled_dark_stone": {

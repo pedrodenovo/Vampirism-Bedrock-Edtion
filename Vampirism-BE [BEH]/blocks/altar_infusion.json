@@ -2,18 +2,18 @@
 	"format_version": "1.20.0",
 	"minecraft:block": {
 		"description": {
-			"identifier": "sunrise:polished_dark_stone",
+			"identifier": "sunrise:altar_infusion",
 			"menu_category": {"category": "construction"}
 		},
 		"components": {
 			"minecraft:collision_box": true,
-			"minecraft:light_dampening": 10,
-			"minecraft:friction": 0.4,
-			"minecraft:display_name": "block.sunrise:polished_dark_stone",
-			"minecraft:geometry":"geometry.one_side_block",
+			"minecraft:light_dampening": 1,
+			"minecraft:friction": 0.3,
+			"minecraft:display_name": "block.sunrise:altar_infusion",
+			"minecraft:geometry":"geometry.altar_infusion",
 			"minecraft:material_instances": {
 				"*": {
-					"texture": "polished_dark_stone",
+					"texture": "altar_infusion",
 					"render_method": "opaque"
 				}
 			},

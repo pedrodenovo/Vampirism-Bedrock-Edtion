@@ -37,6 +37,7 @@ function drainEntityBlood(entity){
 }
 
 server.world.afterEvents.itemUse.subscribe(eventData => {
+    if (eventData.source.getEntitiesFromViewDirection()[0]){
     let indexItemBottle = blood_bottleMap.indexOf(eventData.itemStack.typeId)
     let successCountEntity = eventData.source.getEntitiesFromViewDirection()[0].entity.runCommand("testfor @s[family=mob,family=!monster,family=!vamp,family=!lob]").successCount
     let distanceSquare = eventData.source.getEntitiesFromViewDirection()[0] && calcularDistancia(eventData.source.getEntitiesFromViewDirection()[0].entity.location.x, eventData.source.getEntitiesFromViewDirection()[0].entity.location.y, eventData.source.getEntitiesFromViewDirection()[0].entity.location.z, eventData.source.location.x, eventData.source.location.y, eventData.source.location.z)
@@ -46,5 +47,5 @@ server.world.afterEvents.itemUse.subscribe(eventData => {
         drainEntityBlood(eventData.source.getEntitiesFromViewDirection()[0].entity)
     }else if (successCountEntity == 1 &&  eventData.source.isSneaking && eventData.source.hasTag('vamp') && distanceSquare <= 3.25) {
         drainEntityBlood(eventData.source.getEntitiesFromViewDirection()[0].entity)
-    }
+    }}
 })

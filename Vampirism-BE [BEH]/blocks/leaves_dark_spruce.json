@@ -7,7 +7,7 @@
 		},
 		"components": {
 			"minecraft:collision_box": true,
-			"minecraft:light_dampening": 15,
+			"minecraft:light_dampening": 10,
 			"minecraft:friction": 0.25,
 			"minecraft:loot":"loot_tables/blocks/leaves_dark_spruce.json",
 			"minecraft:display_name": "block.sunrise:leaves_dark_spruce",
@@ -15,7 +15,7 @@
 			"minecraft:material_instances": {
 				"*": {
 					"texture": "leaves_dark_spruce",
-					"render_method": "blend"
+					"render_method": "alpha_test"
 				}
 			},
 			"minecraft:destructible_by_mining": {

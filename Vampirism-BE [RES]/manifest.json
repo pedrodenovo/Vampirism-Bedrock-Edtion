@@ -1,7 +1,7 @@
 {
 	"format_version": 2,
 	"header": {
-		"name": "Vampirism: Bedrock Edtion [v0.0.3]",
+		"name": "Vampirism: Bedrock Edtion [v0.0.4]",
 		"description": "This project is an adaptation of the \"Vampirism\" mod for Minecraft Java, originally developed and licensed under the GNU LGPL 3.0. This adaptation was made based on the original source code, respecting the terms of the license.",
 		"min_engine_version": [
 			1,
@@ -12,7 +12,7 @@
 		"version": [
 			0,
 			0,
-			3
+			4
 		]
 	},
 	"modules": [
@@ -32,7 +32,7 @@
 			"version": [
 				0,
 				0,
-				3
+				4
 			]
 		}
 	]

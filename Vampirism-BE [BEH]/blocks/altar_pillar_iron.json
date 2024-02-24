@@ -2,19 +2,18 @@
 	"format_version": "1.20.0",
 	"minecraft:block": {
 		"description": {
-			"identifier": "sunrise:dark_stone",
-			"menu_category": {"category": "nature"}
+			"identifier": "sunrise:altar_pillar_iron",
+			"menu_category": {"category": "construction"}
 		},
 		"components": {
 			"minecraft:collision_box": true,
-			"minecraft:light_dampening": 10,
+			"minecraft:light_dampening": 0,
 			"minecraft:friction": 0.4,
-			"minecraft:loot":"loot_tables/blocks/dark_stone.json",
-			"minecraft:display_name": "block.sunrise:dark_stone",
-			"minecraft:geometry":"geometry.one_side_block",
+			"minecraft:display_name": "block.sunrise:altar_pillar_iron",
+			"minecraft:geometry":"geometry.altar_pillar",
 			"minecraft:material_instances": {
 				"*": {
-					"texture": "dark_stone",
+					"texture": "altar_pillar_iron",
 					"render_method": "opaque"
 				}
 			},

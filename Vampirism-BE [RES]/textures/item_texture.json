@@ -2,6 +2,9 @@
    "resource_pack_name": "Vampirism - Bedrock Edtion",
    "texture_name": "atlas.items",
    "texture_data": {
+      "impure_blood_bucket": {
+         "textures": "textures/items/impure_blood_bucket"
+      },
       "blood_bucket": {
          "textures": "textures/items/blood_bucket"
       },
