@@ -11,6 +11,9 @@
             "sunrise:vampire":{
                 "family":["vamp"]
             },
+			"sunrise:bat":{
+				"minecraft:is_baby": {}
+			},
 			"minecraft:add_bad_omen": {
 				"minecraft:spell_effects": {
 					"add_effects": [
@@ -202,6 +205,20 @@
                 "add":{
                     "component_groups":[
                         "sunrise:vampire"
+                    ]
+                }
+            },
+			"sunrise:bat":{
+                "add":{
+                    "component_groups":[
+                        "sunrise:bat"
+                    ]
+                }
+            },
+			"sunrise:remove_bat":{
+                "remove":{
+                    "component_groups":[
+                        "sunrise:bat"
                     ]
                 }
             },

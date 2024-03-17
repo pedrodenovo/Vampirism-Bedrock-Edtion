@@ -1,0 +1,25 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "sunrise:vampire_skill_item",
+			"category": "commands"
+		},
+		"components": {
+			"minecraft:can_destroy_in_creative": false,
+			"minecraft:hand_equipped": false,
+			"minecraft:display_name": {
+				"value":"item.sunrise:vampire_skill_item"
+			  },
+			"minecraft:icon": {
+				"texture": "vampire_skill_item"
+			},
+			"minecraft:on_use": {"on_use": {"event": "on_tool_used"}},
+			"minecraft:max_stack_size": 1
+		},
+		"events": {
+			"on_tool_used": {
+			}
+		}
+	}
+}

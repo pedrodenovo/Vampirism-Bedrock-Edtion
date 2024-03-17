@@ -1,0 +1,1 @@
+tag @s add disable_camera_changes

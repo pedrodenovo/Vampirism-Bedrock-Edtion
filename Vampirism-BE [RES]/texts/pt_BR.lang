@@ -27,6 +27,7 @@ item.sunrise:pure_blood_3=Sangue puro [3/4]
 item.sunrise:pure_blood_4=Sangue puro [4/4]
 item.sunrise:weak_human_heart=Coração humano fraco
 item.sunrise:human_heart=Coração humano
+item.sunrise:vampire_skill_item=Skill Item
 
 ## block ##
 block.sunrise:cobbled_dark_stone=Pedra escura talhada
@@ -41,3 +42,11 @@ block.sunrise:dark_spruce_planks=Pranchas de abeto escuras
 block.sunrise:vampire_orchid=Orquídea vampira
 block.sunrise:polished_dark_stone=Pedra escura polida
 block.sunrise:chiseled_dark_stone_bricks=Tijolos de pedra escura cinzelada
+
+block.sunrise:altar_inspiration=Altar da inspiração
+block.sunrise:altar_inspiration_full=Altar da inspiração com sangue
+
+## gui ##
+gui.button.UseSkill_night_vision=Visão noturna
+gui.button.UseSkill_vampire_regeneration=Regeneração vampirica
+gui.button.UseSkill_bat_mode=Morceguificação

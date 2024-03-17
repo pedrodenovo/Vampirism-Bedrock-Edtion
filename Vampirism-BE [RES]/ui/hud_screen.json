@@ -10,6 +10,69 @@
             "effects_display@effects_display.effects_display": {}
           },
           {
+            "tb_20_display@tb_display.tb_20_display": {}
+          },
+          {
+            "tb_19_display@tb_display.tb_19_display": {}
+          },
+          {
+            "tb_18_display@tb_display.tb_18_display": {}
+          },
+          {
+            "tb_17_display@tb_display.tb_17_display": {}
+          },
+          {
+            "tb_16_display@tb_display.tb_16_display": {}
+          },
+          {
+            "tb_15_display@tb_display.tb_15_display": {}
+          },
+          {
+            "tb_14_display@tb_display.tb_14_display": {}
+          },
+          {
+            "tb_13_display@tb_display.tb_13_display": {}
+          },
+          {
+            "tb_12_display@tb_display.tb_12_display": {}
+          },
+          {
+            "tb_11_display@tb_display.tb_11_display": {}
+          },
+          {
+            "tb_10_display@tb_display.tb_10_display": {}
+          },
+          {
+            "tb_9_display@tb_display.tb_9_display": {}
+          },
+          {
+            "tb_8_display@tb_display.tb_8_display": {}
+          },
+          {
+            "tb_7_display@tb_display.tb_7_display": {}
+          },
+          {
+            "tb_6_display@tb_display.tb_6_display": {}
+          },
+          {
+            "tb_5_display@tb_display.tb_5_display": {}
+          },
+          {
+            "tb_4_display@tb_display.tb_4_display": {}
+          },
+          {
+            "tb_3_display@tb_display.tb_3_display": {}
+          },
+          {
+            "tb_2_display@tb_display.tb_2_display": {}
+          },
+          {
+            "tb_1_display@tb_display.tb_1_display": {}
+          },
+          {
+            "tb_0_display@tb_display.tb_0_display": {}
+          },
+          {
             "bite_fang_display@drink_blood_display.bite_fang_display": {}
           },
           {
@@ -34,40 +97,40 @@
             "lv_vamp_2_display@level_vamp.lv_vamp_2_display": {}
           },
           {
-            "lv_vamp_3_display@level_vamp.lv_vamp_2_display": {}
+            "lv_vamp_3_display@level_vamp.lv_vamp_3_display": {}
           },
           {
-            "lv_vamp_4_display@level_vamp.lv_vamp_2_display": {}
+            "lv_vamp_4_display@level_vamp.lv_vamp_4_display": {}
           },
           {
-            "lv_vamp_5_display@level_vamp.lv_vamp_2_display": {}
+            "lv_vamp_5_display@level_vamp.lv_vamp_5_display": {}
           },
           {
-            "lv_vamp_6_display@level_vamp.lv_vamp_1_display": {}
+            "lv_vamp_6_display@level_vamp.lv_vamp_6_display": {}
           },
           {
-            "lv_vamp_7_display@level_vamp.lv_vamp_2_display": {}
+            "lv_vamp_7_display@level_vamp.lv_vamp_7_display": {}
           },
           {
-            "lv_vamp_8_display@level_vamp.lv_vamp_2_display": {}
+            "lv_vamp_8_display@level_vamp.lv_vamp_8_display": {}
           },
           {
-            "lv_vamp_9_display@level_vamp.lv_vamp_2_display": {}
+            "lv_vamp_9_display@level_vamp.lv_vamp_9_display": {}
           },
           {
-            "lv_vamp_10_display@level_vamp.lv_vamp_2_display": {}
+            "lv_vamp_10_display@level_vamp.lv_vamp_10_display": {}
           },
           {
-            "lv_vamp_11_display@level_vamp.lv_vamp_1_display": {}
+            "lv_vamp_11_display@level_vamp.lv_vamp_11_display": {}
           },
           {
-            "lv_vamp_12_display@level_vamp.lv_vamp_2_display": {}
+            "lv_vamp_12_display@level_vamp.lv_vamp_12_display": {}
           },
           {
-            "lv_vamp_13_display@level_vamp.lv_vamp_2_display": {}
+            "lv_vamp_13_display@level_vamp.lv_vamp_13_display": {}
           },
           {
-            "lv_vamp_14_display@level_vamp.lv_vamp_2_display": {}
+            "lv_vamp_14_display@level_vamp.lv_vamp_14_display": {}
           }
         ]
       }

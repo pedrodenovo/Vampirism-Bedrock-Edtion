@@ -7,6 +7,9 @@
 		"altar_inspiration": {
 			"textures": "textures/blocks/altar_inspiration"
 		},
+		"altar_inspiration_full": {
+			"textures": "textures/blocks/altar_inspiration_full"
+		},
 		"altar_tip": {
 			"textures": "textures/blocks/altar_tip"
 		},

@@ -371,7 +371,7 @@
     ]
   },
   "lv_vamp_10_display": {
-    "$update_string": "lv_vamp_10",
+    "$update_string": "lv_vamp_x0",
     "type": "label",
     "layer": 91,
     "font_scale_factor": 1,
@@ -412,7 +412,7 @@
     ]
   },
   "lv_vamp_11_display": {
-    "$update_string": "lv_vamp_11",
+    "$update_string": "lv_vamp_x1",
     "type": "label",
     "layer": 91,
     "font_scale_factor": 1,
@@ -453,11 +453,11 @@
     ]
   },
   "lv_vamp_12_display": {
-    "$update_string": "lv_vamp_12",
+    "$update_string": "lv_vamp_x2",
     "type": "label",
     "layer": 91,
     "font_scale_factor": 1,
-    "text": "§6512",
+    "text": "§512",
     "anchor_from": "bottom_middle",
     "anchor_to": "bottom_middle",
     "offset": [
@@ -494,7 +494,7 @@
     ]
   },
   "lv_vamp_13_display": {
-    "$update_string": "lv_vamp_13",
+    "$update_string": "lv_vamp_x3",
     "type": "label",
     "layer": 91,
     "font_scale_factor": 1,
@@ -535,7 +535,7 @@
     ]
   },
   "lv_vamp_14_display": {
-    "$update_string": "lv_vamp_14",
+    "$update_string": "lv_vamp_x4",
     "type": "label",
     "layer": 91,
     "font_scale_factor": 1,

@@ -8,6 +8,9 @@
 		"components": {
 			"minecraft:can_destroy_in_creative": false,
 			"minecraft:hand_equipped": false,
+			"minecraft:display_name": {
+				"value":"item.sunrise:pure_blood_4"
+			  },
 			"minecraft:icon": {
 				"texture": "pure_blood_4"
 			},

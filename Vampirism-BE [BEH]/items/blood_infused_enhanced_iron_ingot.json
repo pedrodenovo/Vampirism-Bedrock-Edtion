@@ -8,6 +8,9 @@
 		"components": {
 			"minecraft:can_destroy_in_creative": false,
 			"minecraft:hand_equipped": false,
+			"minecraft:display_name": {
+				"value":"item.sunrise:blood_infused_enhanced_iron_ingot"
+			  },
 			"minecraft:icon": {
 				"texture": "blood_infused_enhanced_iron_ingot"
 			},

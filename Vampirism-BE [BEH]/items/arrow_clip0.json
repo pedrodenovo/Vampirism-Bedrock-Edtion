@@ -3,11 +3,14 @@
 	"minecraft:item": {
 		"description": {
 			"identifier": "sunrise:arrow_clip0",
-			"category": "items"
+			"category": "commands"
 		},
 		"components": {
 			"minecraft:can_destroy_in_creative": false,
 			"minecraft:hand_equipped": false,
+			"minecraft:display_name": {
+				"value":"item.sunrise:arrow_clip0"
+			  },
 			"minecraft:icon": {
 				"texture": "arrow_clip0"
 			},

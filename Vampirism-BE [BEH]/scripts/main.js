@@ -1,6 +1,3 @@
-import * as server from "@minecraft/server";
-import { ActionFormData } from "@minecraft/server-ui";
-
-import "./modules/drink_blood.js"
-import "./modules/title_ui_elements.js"
-import "./modules/blocks_item_use.js"
+import "./main/item_use.min.js"
+import "./main/runInterval_all_tick.min.js"
+import "./main/entity_die.min.js"

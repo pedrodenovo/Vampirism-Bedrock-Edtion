@@ -36,6 +36,46 @@
 		"sound": "wood",
 		"textures": "altar_inspiration"
 	},
+	"sunrise:altar_inspiration_1": {
+		"sound": "wood",
+		"textures": "altar_inspiration_full"
+	},
+	"sunrise:altar_inspiration_2": {
+		"sound": "wood",
+		"textures": "altar_inspiration_full"
+	},
+	"sunrise:altar_inspiration_4": {
+		"sound": "wood",
+		"textures": "altar_inspiration_full"
+	},
+	"sunrise:altar_inspiration_5": {
+		"sound": "wood",
+		"textures": "altar_inspiration_full"
+	},
+	"sunrise:altar_inspiration_6": {
+		"sound": "wood",
+		"textures": "altar_inspiration_full"
+	},
+	"sunrise:altar_inspiration_7": {
+		"sound": "wood",
+		"textures": "altar_inspiration_full"
+	},
+	"sunrise:altar_inspiration_8": {
+		"sound": "wood",
+		"textures": "altar_inspiration_full"
+	},
+	"sunrise:altar_inspiration_9": {
+		"sound": "wood",
+		"textures": "altar_inspiration_full"
+	},
+	"sunrise:altar_inspiration_10": {
+		"sound": "wood",
+		"textures": "altar_inspiration_full"
+	},
+	"sunrise:altar_inspiration_full": {
+		"sound": "wood",
+		"textures": "altar_inspiration_full"
+	},
 	"sunrise:dark_spruce_log": {
 		"sound": "wood",
 		"textures": "dark_spruce_log"

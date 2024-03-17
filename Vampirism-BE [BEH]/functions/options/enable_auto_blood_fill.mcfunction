@@ -1,0 +1,1 @@
+tag @s remove disable_auto_blood_fill

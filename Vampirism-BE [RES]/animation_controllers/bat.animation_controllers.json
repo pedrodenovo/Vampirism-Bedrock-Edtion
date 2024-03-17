@@ -1,0 +1,25 @@
+{
+	"format_version" : "1.10.0",
+	"animation_controllers" : {
+		"controller.animation.player.bat.move" : {
+			"initial_state" : "flying",
+			"states" : {
+				"flying" : {
+					"animations" : [ "bat" ],
+					"transitions" : [
+						{
+							"resting" : "!query.is_baby"
+						}
+					]
+				},
+				"resting" : {
+					"transitions" : [
+						{
+							"flying" : "query.is_baby"
+						}
+					]
+				}
+			}
+		}
+	}
+}

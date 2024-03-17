@@ -6,18 +6,30 @@
 			"category": "items"
 		},
 		"components": {
+			"tag:vampire_fang": {},
 			"minecraft:can_destroy_in_creative": false,
 			"minecraft:hand_equipped": false,
+			"minecraft:display_name": {
+				"value": "item.sunrise:vampire_fang"
+			},
 			"minecraft:icon": {
 				"texture": "vampire_fang"
 			},
-			"minecraft:on_use": {"on_use": {"event": "on_tool_used"}},
-			"minecraft:max_stack_size": 1
+			"minecraft:on_use": {
+				"on_use": {
+					"event": "on_tool_used"
+				}
+			},
+			"minecraft:max_stack_size": 64
 		},
 		"events": {
 			"on_tool_used": {
-				"run_command": {"command":"function system/transform/startVampire"},
-				"transform_item": {"transform": "air"}
+				"run_command": {
+					"command": [
+						"function system/transform/startVampire",
+						"clear @s[tag!=vamp] sunrise:vampire_fang 0 1"
+					]
+				}
 			}
 		}
 	}

@@ -1,3 +1,3 @@
 {
-  "ui_defs": ["ui/hud_screen.json","ui/level_vamp.json","ui/drink_blood.json","ui/effects_display.json"]
+  "ui_defs": ["ui/hud_screen.json","ui/level_vamp.json","ui/drink_blood.json","ui/effects_display.json","ui/tb_display.json"]
 }

@@ -2,12 +2,15 @@
 	"format_version": "1.16.100",
 	"minecraft:item": {
 		"description": {
-			"identifier": "sunrise:impure_blood_bucket",
+			"identifier": "sunrise:",
 			"category": "items"
 		},
 		"components": {
 			"minecraft:can_destroy_in_creative": false,
 			"minecraft:hand_equipped": false,
+			"minecraft:display_name": {
+				"value":"item.sunrise:impure_blood_bucket"
+			  },
 			"minecraft:icon": {
 				"texture": "impure_blood_bucket"
 			},

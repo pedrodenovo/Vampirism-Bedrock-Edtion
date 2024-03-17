@@ -7,7 +7,7 @@
 		},
 		"components": {
 			"minecraft:collision_box": true,
-			"minecraft:light_dampening": 10,
+			"minecraft:light_dampening": 5,
 			"minecraft:friction": 0.4,
 			"minecraft:loot":"loot_tables/blocks/dark_stone.json",
 			"minecraft:display_name": "block.sunrise:dark_stone",
