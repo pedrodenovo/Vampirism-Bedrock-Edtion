@@ -77,6 +77,9 @@
       "vampire_book": {
          "textures": "textures/items/vampire_book"
       },
+      "vampire_skill_item": {
+         "textures": "textures/items/vampire_skill_item"
+      },
       "arrow_clip0": {
          "textures": "textures/items/arrow_clip0"
       },

@@ -1,24 +1,10 @@
 {
-	"format_version": "1.20.0",
+	"format_version": "1.20.70",
 	"minecraft:block": {
 	  "description": {
 		"identifier": "sunrise:dark_spruce_log",
 		"menu_category": {
 		  "category": "nature"
-		},
-		"properties": {
-		  "bridge:block_rotation": [
-			0,
-			1,
-			2,
-			3,
-			4,
-			5
-		  ],
-		  "sunrise:coffin": [
-			1,
-			2
-		  ]
 		}
 	  },
 	  "components": {
@@ -27,7 +13,7 @@
 		},
 		"minecraft:collision_box": true,
 		"minecraft:light_emission": 0,
-		"minecraft:light_dampening": 5,
+		"minecraft:light_dampening": 15,
 		"minecraft:display_name": "block.sunrise:dark_spruce_log",
 		"minecraft:geometry": "geometry.up_sides_bottom_block",
 			"minecraft:material_instances": {
@@ -35,91 +21,9 @@
 					"texture": "dark_spruce_log",
 					"render_method": "opaque"
 				}
-			},
-		"minecraft:on_player_placing": {
-		  "event": "bridge:update_rotation"
-		}
+			}
 	  },
 	  "events": {
-		"bridge:update_rotation": {
-		  "set_block_property": {
-			"bridge:block_rotation": "query.cardinal_facing"
-		  }
-		}
-	  },
-	  "permutations": [
-		{
-		  "condition": "query.block_property('bridge:block_rotation') == 0",
-		  "components": {
-			"minecraft:transformation": {
-			  "rotation": [
-				0,
-				0,
-				0
-			  ]
-			}
-		  }
-		},
-		{
-		  "condition": "query.block_property('bridge:block_rotation') == 1",
-		  "components": {
-			"minecraft:transformation": {
-			  "rotation": [
-				0,
-				0,
-				180
-			  ]
-			}
-		  }
-		},
-		{
-		  "condition": "query.block_property('bridge:block_rotation') == 2",
-		  "components": {
-			"minecraft:transformation": {
-			  "rotation": [
-				0,
-				0,
-				180
-			  ]
-			}
-		  }
-		},
-		{
-		  "condition": "query.block_property('bridge:block_rotation') == 3",
-		  "components": {
-			"minecraft:transformation": {
-			  "rotation": [
-				0,
-				0,
-				0
-			  ]
-			}
-		  }
-		},
-		{
-			"condition": "query.block_property('bridge:block_rotation') == 4",
-			"components": {
-			  "minecraft:transformation": {
-				"rotation": [
-					180,
-					0,
-					0
-				  ]
-			  }
-			}
-		  },
-		  {
-			"condition": "query.block_property('bridge:block_rotation') == 5",
-			"components": {
-			  "minecraft:transformation": {
-				"rotation": [
-					180,
-					0,
-					0
-				  ]
-			  }
-			}
-		  }
-	  ]
+	  }
 	}
   }

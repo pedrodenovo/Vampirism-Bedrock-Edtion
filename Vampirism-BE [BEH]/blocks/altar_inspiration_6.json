@@ -3,21 +3,15 @@
 	"minecraft:block": {
 		"description": {
 			"identifier": "sunrise:altar_inspiration_6",
-			"menu_category": {
-				"category": "commands"
-			}
+			"menu_category": {"category": "commands"}
 		},
 		"components": {
 			"minecraft:collision_box": true,
 			"minecraft:light_dampening": 1,
 			"minecraft:friction": 0.3,
 			"minecraft:display_name": "block.sunrise:altar_inspiration_full",
-			"minecraft:loot": "loot_tables/blocks/altar_inspiration.json",
-			"minecraft:geometry": "geometry.altar_inspiration_6",
-			"minecraft:on_interact": {
-				"condition": "query.equipped_item_any_tag('slot.weapon.mainhand','blood_bottle_9')",
-				"event": "blood"
-			},
+			"minecraft:loot":"loot_tables/blocks/altar_inspiration.json",
+			"minecraft:geometry":"geometry.altar_inspiration_6",
 			"minecraft:material_instances": {
 				"*": {
 					"texture": "altar_inspiration_full",
@@ -29,11 +23,6 @@
 			}
 		},
 		"events": {
-			"blood": {
-"set_block": {
-					"block_type": "sunrise:altar_inspiration_7"
-				}
-			}
 		}
 	}
 }

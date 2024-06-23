@@ -1,37 +1,29 @@
 {
-   "format_version": "1.16.100",
-   "minecraft:item": {
-      "description": {
-         "category": "Items",
-         "identifier": "sunrise:cure_apple"
-      },
-      "components": {
-         
-         "minecraft:tags":{"tags":["sangue"]},
-         "minecraft:use_modifiers":{"movement_modifier":0.1,"use_duration":1.3},
-         "minecraft:food": {
-            "can_always_eat": true,
-            "effects": [],
-            "nutrition": 6,
-            "saturation_modifier": "normal",
-            
-            "on_consume": {
-               "event": "drink"
-            }
-         },     
-         "minecraft:display_name": {
-        "value":"item.sunrise:cure_apple"
-      },
-         "minecraft:max_stack_size": 16,
-        "minecraft:use_animation": "drink",
-         "minecraft:icon": {
-            "texture": "cure_apple"
-         }
-      },
-      "events": {
-        "swing": {},
-         "drink": {
-         }
-      }
-   }
+	"format_version": "1.20.50",
+	"minecraft:item": {
+		"description": {
+			"identifier": "sunrise:cure_apple",
+         "menu_category": {
+				"category": "items"
+			}
+		},
+		"components": {
+			"minecraft:use_animation": "eat",
+			"minecraft:food": {
+				"nutrition": 1,
+				"can_always_eat": true,
+				"using_converts_to": "sunrise:cure_apple"
+			},
+			"minecraft:use_modifiers": {
+				"movement_modifier": 0.6,
+				"use_duration": 1.2
+			},
+			"minecraft:display_name": {
+				"value": "item.sunrise:cure_apple"
+			},
+			"minecraft:icon": "cure_apple",
+			"minecraft:max_stack_size": 1,
+			"minecraft:hand_equipped": false
+		}
+	}
 }

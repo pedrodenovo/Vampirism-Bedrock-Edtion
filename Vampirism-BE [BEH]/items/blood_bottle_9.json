@@ -1,48 +1,29 @@
 {
-   "format_version": "1.16.100",
-   "minecraft:item": {
-      "description": {
-         "category": "Items",
-         "identifier": "sunrise:blood_bottle_9"
-      },
-      "components": {
-         "tag:blood_bottle_9":{},
-         "minecraft:use_modifiers": {
-            "movement_modifier": 0.1
-         },
-         "minecraft:food": {
-            "can_always_eat": true,
-            "nutrition": 6,
-            "saturation_modifier": "normal",
-            "using_converts_to": "sunrise:blood_bottle_0",
-            "on_consume": {
-               "event": "drink"
-            }
-         },
-         "minecraft:display_name": {
-            "value": "item.sunrise:blood_bottle_9"
-         },
-         "minecraft:max_stack_size": 16,
-         "minecraft:use_animation": "drink",
-         "minecraft:use_duration": 1.6,
-         "minecraft:on_use": {
-            "on_use": {
-               "event": "drink"
-            }
-         },
-         "minecraft:icon": {
-            "texture": "blood_bottle_9"
-         }
-      },
-      "events": {
-         "swing": {},
-         "drink": {
-            "run_command": {
-               "command": [
-                  "scoreboard players add @s blood 8140"
-               ]
-            }
-         }
-      }
-   }
+	"format_version": "1.20.50",
+	"minecraft:item": {
+		"description": {
+			"identifier": "sunrise:blood_bottle_9",
+         "menu_category": {
+				"category": "items"
+			}
+		},
+		"components": {
+			"minecraft:use_animation": "drink",
+			"minecraft:food": {
+				"nutrition": 1,
+				"can_always_eat": true,
+				"using_converts_to": "sunrise:blood_bottle_0"
+			},
+			"minecraft:use_modifiers": {
+				"movement_modifier": 0.6,
+				"use_duration": 1.2
+			},
+			"minecraft:display_name": {
+				"value": "item.sunrise:blood_bottle_9"
+			},
+			"minecraft:icon": "blood_bottle_9",
+			"minecraft:max_stack_size": 16,
+			"minecraft:hand_equipped": false
+		}
+	}
 }

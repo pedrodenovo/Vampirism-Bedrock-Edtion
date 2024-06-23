@@ -36,6 +36,9 @@ function drainEntityBlood(entity) {
     } else {
         entity.runCommandAsync("tag @s add drainedBlood_2")
     }
+    entity.runCommandAsync(`particle sunrise:bite_blood_particle ~~~`)
+    entity.runCommandAsync(`playsound mob.vampire.bite`)
+    entity.runCommandAsync(`damage @s 1 entity_attack entity @p`)
 }
 
 server.world.afterEvents.itemUse.subscribe(eventData => {
@@ -113,8 +116,6 @@ server.world.afterEvents.itemUse.subscribe(eventData => {
                 if (eventData.itemStack.typeId.includes("_shovel")) {
                     eventData.source.runCommand(`setblock ${blockLoc.x} ${blockLoc.y} ${blockLoc.z} sunrise:cursed_earth_path`)
                 }
-            } else if (eventData.source.hasTag("vamp") && eventData.source.hasTag("lv_vamp_14") == false && eventData.itemStack.typeId == "sunrise:blood_bottle_9" && eventData.source.runCommand(`testforblock ${blockLoc.x} ${blockLoc.y} ${blockLoc.z} sunrise:altar_inspiration_full`).successCount == 1) {
-                    skill_screen.unlock_skill_for(eventData.source,blockLoc)
             }
         }
     }
@@ -124,3 +125,56 @@ server.world.afterEvents.itemUse.subscribe(eventData => {
     }
 })
 
+server.world.afterEvents.itemCompleteUse.subscribe(eventData=>{
+    let player = eventData.source
+    let item = eventData.itemStack
+    let itemId = eventData.itemStack.typeId
+    if (itemId.startsWith("sunrise:blood_bottle_")) {
+        blood_bottleProcess(itemId,player)
+    } else if (itemId == "sunrise:vampire_fang") {
+       player.runCommand("function system/transform/startVampire")
+       player.runCommand("clear @s[tag=!vamp] sunrise:vampire_fang 0 1")
+    }
+}
+)
+
+server.world.afterEvents.entityHitBlock.subscribe(eventData => {
+    let player = eventData.damagingEntity
+    let blockId = eventData.hitBlock.typeId
+    let blockLoc = eventData.hitBlock.location
+    if (blockId.startsWith("sunrise:altar_inspiration")){
+        if ((player.hasTag('lv_vamp_1')||player.hasTag('lv_vamp_2')||player.hasTag('lv_vamp_3')) && player.hasTag("vamp") && blockId == "sunrise:altar_inspiration_full"){
+            skill_screen.unlock_skill_for(player,blockLoc)
+        } else if (blockId == "sunrise:altar_inspiration" && player.hasTag("vamp") && player.runCommand('testfor @s[hasitem=[{item=sunrise:blood_bottle_9,location=slot.weapon.mainhand}]]').successCount==1){
+            player.runCommandAsync(`setblock ${blockLoc.x} ${blockLoc.y} ${blockLoc.z} sunrise:altar_inspiration_1`);
+            player.runCommand("clear @s[tag=!vamp] sunrise:blood_bottle_9 0 1")
+        } else if ((player.hasTag('lv_vamp_1')||player.hasTag('lv_vamp_2')||player.hasTag('lv_vamp_3')) && player.hasTag("vamp") && player.runCommand('testfor @s[hasitem=[{item=sunrise:blood_bottle_9,location=slot.weapon.mainhand}]]').successCount==1){
+            altar_inspirationFillProcess(blockId,player,blockLoc)
+        } else if ((!player.hasTag('lv_vamp_1')||!player.hasTag('lv_vamp_2')||!player.hasTag('lv_vamp_3')) && player.hasTag("vamp") && player.runCommand('testfor @s[hasitem=[{item=sunrise:blood_bottle_9,location=slot.weapon.mainhand}]]').successCount==1){
+            player.runCommand('tellraw @a {"rawtext":[{"translate":"skill.altar_limit"}]}')
+        }
+    }
+})
+
+function blood_bottleProcess(input,player) {
+        let lastChar = input.charAt(input.length - 1);
+
+        if (lastChar >= '1' && lastChar <= '9') {
+            let number = parseInt(lastChar, 10);
+            number *= 860;
+            player.runCommandAsync(`scoreboard players add @s blood ${number}`);
+        }
+}
+
+function altar_inspirationFillProcess(input,player,blockLoc) {
+    let lastChar = input.charAt(input.length - 1);
+    if (lastChar >= '1' && lastChar <= '8') {
+        let number = parseInt(lastChar, 10);
+        player.runCommandAsync(`setblock ${blockLoc.x} ${blockLoc.y} ${blockLoc.z} sunrise:altar_inspiration_${number+1}`);
+       player.runCommand("clear @s[tag=!vamp] sunrise:blood_bottle_9 0 1")
+    }else if (lastChar == "9"){
+        player.runCommandAsync(`setblock ${blockLoc.x} ${blockLoc.y} ${blockLoc.z} sunrise:altar_inspiration_full`);
+       player.runCommand("clear @s[tag=!vamp] sunrise:blood_bottle_9 0 1")
+
+    }
+}

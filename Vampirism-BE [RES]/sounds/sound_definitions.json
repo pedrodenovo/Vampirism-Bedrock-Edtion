@@ -1,0 +1,13 @@
+{
+	"format_version": "1.14.0",
+	"sound_definitions": {
+		"mob.vampire.bite": {
+			"category": "neutral",
+			"sounds": [
+				"sounds/sound_effects/vampire_bite_1",
+				"sounds/sound_effects/vampire_bite_2",
+				"sounds/sound_effects/vampire_bite_3"
+			]
+		}
+	}
+}

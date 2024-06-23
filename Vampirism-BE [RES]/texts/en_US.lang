@@ -50,3 +50,7 @@ block.sunrise:vampire_orchid=Vampire orchid
 gui.button.UseSkill_bat_mode=Batification
 gui.button.UseSkill_night_vision=Night vision
 gui.button.UseSkill_vampire_regeneration=Vampire regeneration
+
+
+## text ##
+skill.altar_limit=You can no longer use this altar at your level...

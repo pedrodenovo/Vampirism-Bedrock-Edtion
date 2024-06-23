@@ -22,6 +22,7 @@ export function open_screen_for(player) {
     player.runCommandAsync('ability @s[m=!c] mayfly false')
     player.runCommandAsync('function reset_skills');
     const dlg_UseSkill = new ActionFormData();
+    dlg_UseSkill.title("SkillScreen")
     let res_UseSkill = ['']
     dlg_UseSkill.button('No Skill', 'textures/ui/skills/none.png');
     skillsVampire.forEach(skill => {
@@ -38,6 +39,7 @@ export function open_screen_for(player) {
         if (res_UseSkill[result.selection] == "bat_mode") {
             player.runCommandAsync('ability @s[scores={blood=720..}] mayfly true');
             player.runCommandAsync('tag @s[scores={blood=720..}] add bat_mayfly');
+            player.runCommandAsync('particle sunrise:transform_smoke ~~~');
             player.runCommandAsync('event entity @s[scores={blood=720..}] sunrise:bat');
             player.runCommandAsync('camera @s[tag=!disable_camera_changes,tag=bat_mayfly,scores={blood=720..}] set minecraft:third_person');
         } else if (res_UseSkill[result.selection] == "vampire_regeneration") {
@@ -49,6 +51,7 @@ export function open_screen_for(player) {
 
 export function unlock_skill_for(player, loc) {
     const dlg_UnlockSkill = new ActionFormData();
+
     let res_UnlockSkill = []
     if (player.hasTag("has_night_vision")) {
         if (player.hasTag("has_vampire_regeneration")) {
@@ -74,7 +77,33 @@ export function unlock_skill_for(player, loc) {
             }else if (player.hasTag("lv_vamp_3")) {
                 player.runCommandAsync("tag @s remove lv_vamp_3")
                 player.runCommandAsync("tag @s add " + tagToNextLevelMap["lv_vamp_3"])
-            }else if (player.hasTag("lv_vamp_4")) {
+            }
+        })
+        player.runCommand(`setblock ${loc.x} ${loc.y} ${loc.z} sunrise:altar_inspiration`)
+        player.runCommand(`clear @s sunrise:blood_bottle_9 0 1`)
+    }, 20)
+}
+
+export function unlock_skill_for_advanced(player, loc) {
+    const dlg_UnlockSkill = new ActionFormData();
+
+    let res_UnlockSkill = []
+    if (player.hasTag("has_night_vision")) {
+        if (player.hasTag("has_vampire_regeneration")) {
+            if (player.hasTag("has_bat_mode")) {
+                dlg_UnlockSkill.button('wait for the next update', 'textures/ui/skills/none.png');
+            } else { dlg_UnlockSkill.button('gui.button.UseSkill_bat_mode', 'textures/ui/skills/bat_mode.png'); res_UnlockSkill.push('bat_mode'); }
+        } else {
+            dlg_UnlockSkill.button('gui.button.UseSkill_vampire_regeneration', 'textures/ui/skills/vampire_regeneration.png'); res_UnlockSkill.push('vampire_regeneration');
+        }
+    } else {
+        dlg_UnlockSkill.button('gui.button.UseSkill_night_vision', 'textures/ui/skills/night_vision.png'); res_UnlockSkill.push('night_vision');
+    }
+    player.runCommand(`setblock ${loc.x} ${loc.y} ${loc.z} sunrise:altar_inspiration_5`)
+    server.system.runTimeout(eventData => {
+        dlg_UnlockSkill.show(player).then(result => {
+            player.runCommand(`tag @s add has_${res_UnlockSkill[result.selection]}`)
+            if (player.hasTag("lv_vamp_4")) {
                 player.runCommandAsync("tag @s remove lv_vamp_4")
                 player.runCommandAsync("tag @s add " + tagToNextLevelMap["lv_vamp_4"])
             }else if (player.hasTag("lv_vamp_5")) {
@@ -110,4 +139,3 @@ export function unlock_skill_for(player, loc) {
         player.runCommand(`clear @s sunrise:blood_bottle_9 0 1`)
     }, 20)
 }
-

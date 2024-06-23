@@ -1,5 +1,5 @@
 {
-	"format_version": "1.20.0",
+	"format_version": "1.21.0",
 	"minecraft:block": {
 		"description": {
 			"identifier": "sunrise:altar_infusion",
@@ -29,7 +29,7 @@
 		},
 		"events": {
 			"blood": {
-"set_block": {
+				"set_block": {
 					"block_type": "sunrise:altar_infusion_1"
 				}
 			}

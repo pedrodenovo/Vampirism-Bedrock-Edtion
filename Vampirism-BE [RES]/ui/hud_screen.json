@@ -10,69 +10,6 @@
             "effects_display@effects_display.effects_display": {}
           },
           {
-            "tb_20_display@tb_display.tb_20_display": {}
-          },
-          {
-            "tb_19_display@tb_display.tb_19_display": {}
-          },
-          {
-            "tb_18_display@tb_display.tb_18_display": {}
-          },
-          {
-            "tb_17_display@tb_display.tb_17_display": {}
-          },
-          {
-            "tb_16_display@tb_display.tb_16_display": {}
-          },
-          {
-            "tb_15_display@tb_display.tb_15_display": {}
-          },
-          {
-            "tb_14_display@tb_display.tb_14_display": {}
-          },
-          {
-            "tb_13_display@tb_display.tb_13_display": {}
-          },
-          {
-            "tb_12_display@tb_display.tb_12_display": {}
-          },
-          {
-            "tb_11_display@tb_display.tb_11_display": {}
-          },
-          {
-            "tb_10_display@tb_display.tb_10_display": {}
-          },
-          {
-            "tb_9_display@tb_display.tb_9_display": {}
-          },
-          {
-            "tb_8_display@tb_display.tb_8_display": {}
-          },
-          {
-            "tb_7_display@tb_display.tb_7_display": {}
-          },
-          {
-            "tb_6_display@tb_display.tb_6_display": {}
-          },
-          {
-            "tb_5_display@tb_display.tb_5_display": {}
-          },
-          {
-            "tb_4_display@tb_display.tb_4_display": {}
-          },
-          {
-            "tb_3_display@tb_display.tb_3_display": {}
-          },
-          {
-            "tb_2_display@tb_display.tb_2_display": {}
-          },
-          {
-            "tb_1_display@tb_display.tb_1_display": {}
-          },
-          {
-            "tb_0_display@tb_display.tb_0_display": {}
-          },
-          {
             "bite_fang_display@drink_blood_display.bite_fang_display": {}
           },
           {
@@ -135,5 +72,879 @@
         ]
       }
     ]
-  }
+  },
+  "blood_thist": {
+    "type": "panel",
+    "controls": [
+       {
+          "0": {
+             "$update_string": "vamp_blood_0",
+             "type": "label",
+             "layer": 90,
+             "anchor_from": "top_right",
+             "anchor_to": "top_right",
+             "font_scale_factor": 0.38,
+             "text": "",
+             "controls": [
+                {
+                   "data_control": {
+                      "type": "panel",
+                      "size": [
+                         0,
+                         0
+                      ],
+                      "bindings": [
+                         {
+                            "binding_name": "#hud_title_text_string"
+                         },
+                         {
+                            "binding_name": "#hud_title_text_string",
+                            "binding_name_override": "#preserved_text"
+                         }
+                      ]
+                   }
+                }
+             ],
+             "bindings": [
+                {
+                   "binding_type": "view",
+                   "source_control_name": "data_control",
+                   "source_property_name": "(not ((#preserved_text - $update_string) = #hud_title_text_string)))",
+                   "target_property_name": "#visible"
+                }
+             ]
+          }
+       },
+       {
+          "1": {
+             "$update_string": "vamp_blood_1",
+             "type": "label",
+             "layer": 90,
+             "anchor_from": "top_right",
+             "anchor_to": "top_right",
+             "font_scale_factor": 0.38,
+             "text": "",
+             "controls": [
+                {
+                   "data_control": {
+                      "type": "panel",
+                      "size": [
+                         0,
+                         0
+                      ],
+                      "bindings": [
+                         {
+                            "binding_name": "#hud_title_text_string"
+                         },
+                         {
+                            "binding_name": "#hud_title_text_string",
+                            "binding_name_override": "#preserved_text"
+                         }
+                      ]
+                   }
+                }
+             ],
+             "bindings": [
+                {
+                   "binding_type": "view",
+                   "source_control_name": "data_control",
+                   "source_property_name": "(not ((#preserved_text - $update_string) = #hud_title_text_string)))",
+                   "target_property_name": "#visible"
+                }
+             ]
+          }
+       },
+       {
+          "2": {
+             "$update_string": "vamp_blood_2",
+             "type": "label",
+             "layer": 90,
+             "anchor_from": "top_right",
+             "anchor_to": "top_right",
+             "font_scale_factor": 0.38,
+             "text": "",
+             "controls": [
+                {
+                   "data_control": {
+                      "type": "panel",
+                      "size": [
+                         0,
+                         0
+                      ],
+                      "bindings": [
+                         {
+                            "binding_name": "#hud_title_text_string"
+                         },
+                         {
+                            "binding_name": "#hud_title_text_string",
+                            "binding_name_override": "#preserved_text"
+                         }
+                      ]
+                   }
+                }
+             ],
+             "bindings": [
+                {
+                   "binding_type": "view",
+                   "source_control_name": "data_control",
+                   "source_property_name": "(not ((#preserved_text - $update_string) = #hud_title_text_string)))",
+                   "target_property_name": "#visible"
+                }
+             ]
+          }
+       },
+       {
+          "3": {
+             "$update_string": "vamp_blood_3",
+             "type": "label",
+             "layer": 90,
+             "anchor_from": "top_right",
+             "anchor_to": "top_right",
+             "font_scale_factor": 0.38,
+             "text": "",
+             "controls": [
+                {
+                   "data_control": {
+                      "type": "panel",
+                      "size": [
+                         0,
+                         0
+                      ],
+                      "bindings": [
+                         {
+                            "binding_name": "#hud_title_text_string"
+                         },
+                         {
+                            "binding_name": "#hud_title_text_string",
+                            "binding_name_override": "#preserved_text"
+                         }
+                      ]
+                   }
+                }
+             ],
+             "bindings": [
+                {
+                   "binding_type": "view",
+                   "source_control_name": "data_control",
+                   "source_property_name": "(not ((#preserved_text - $update_string) = #hud_title_text_string)))",
+                   "target_property_name": "#visible"
+                }
+             ]
+          }
+       },
+       {
+          "4": {
+             "$update_string": "vamp_blood_4",
+             "type": "label",
+             "layer": 90,
+             "anchor_from": "top_right",
+             "anchor_to": "top_right",
+             "font_scale_factor": 0.38,
+             "text": "",
+             "controls": [
+                {
+                   "data_control": {
+                      "type": "panel",
+                      "size": [
+                         0,
+                         0
+                      ],
+                      "bindings": [
+                         {
+                            "binding_name": "#hud_title_text_string"
+                         },
+                         {
+                            "binding_name": "#hud_title_text_string",
+                            "binding_name_override": "#preserved_text"
+                         }
+                      ]
+                   }
+                }
+             ],
+             "bindings": [
+                {
+                   "binding_type": "view",
+                   "source_control_name": "data_control",
+                   "source_property_name": "(not ((#preserved_text - $update_string) = #hud_title_text_string)))",
+                   "target_property_name": "#visible"
+                }
+             ]
+          }
+       },
+       {
+          "5": {
+             "$update_string": "vamp_blood_5",
+             "type": "label",
+             "layer": 90,
+             "anchor_from": "top_right",
+             "anchor_to": "top_right",
+             "font_scale_factor": 0.38,
+             "text": "",
+             "controls": [
+                {
+                   "data_control": {
+                      "type": "panel",
+                      "size": [
+                         0,
+                         0
+                      ],
+                      "bindings": [
+                         {
+                            "binding_name": "#hud_title_text_string"
+                         },
+                         {
+                            "binding_name": "#hud_title_text_string",
+                            "binding_name_override": "#preserved_text"
+                         }
+                      ]
+                   }
+                }
+             ],
+             "bindings": [
+                {
+                   "binding_type": "view",
+                   "source_control_name": "data_control",
+                   "source_property_name": "(not ((#preserved_text - $update_string) = #hud_title_text_string)))",
+                   "target_property_name": "#visible"
+                }
+             ]
+          }
+       },
+       {
+          "6": {
+             "$update_string": "vamp_blood_6",
+             "type": "label",
+             "layer": 90,
+             "anchor_from": "top_right",
+             "anchor_to": "top_right",
+             "font_scale_factor": 0.38,
+             "text": "",
+             "controls": [
+                {
+                   "data_control": {
+                      "type": "panel",
+                      "size": [
+                         0,
+                         0
+                      ],
+                      "bindings": [
+                         {
+                            "binding_name": "#hud_title_text_string"
+                         },
+                         {
+                            "binding_name": "#hud_title_text_string",
+                            "binding_name_override": "#preserved_text"
+                         }
+                      ]
+                   }
+                }
+             ],
+             "bindings": [
+                {
+                   "binding_type": "view",
+                   "source_control_name": "data_control",
+                   "source_property_name": "(not ((#preserved_text - $update_string) = #hud_title_text_string)))",
+                   "target_property_name": "#visible"
+                }
+             ]
+          }
+       },
+       {
+          "7": {
+             "$update_string": "vamp_blood_7",
+             "type": "label",
+             "layer": 90,
+             "anchor_from": "top_right",
+             "anchor_to": "top_right",
+             "font_scale_factor": 0.38,
+             "text": "",
+             "controls": [
+                {
+                   "data_control": {
+                      "type": "panel",
+                      "size": [
+                         0,
+                         0
+                      ],
+                      "bindings": [
+                         {
+                            "binding_name": "#hud_title_text_string"
+                         },
+                         {
+                            "binding_name": "#hud_title_text_string",
+                            "binding_name_override": "#preserved_text"
+                         }
+                      ]
+                   }
+                }
+             ],
+             "bindings": [
+                {
+                   "binding_type": "view",
+                   "source_control_name": "data_control",
+                   "source_property_name": "(not ((#preserved_text - $update_string) = #hud_title_text_string)))",
+                   "target_property_name": "#visible"
+                }
+             ]
+          }
+       },
+       {
+          "8": {
+             "$update_string": "vamp_blood_8",
+             "type": "label",
+             "layer": 90,
+             "anchor_from": "top_right",
+             "anchor_to": "top_right",
+             "font_scale_factor": 0.38,
+             "text": "",
+             "controls": [
+                {
+                   "data_control": {
+                      "type": "panel",
+                      "size": [
+                         0,
+                         0
+                      ],
+                      "bindings": [
+                         {
+                            "binding_name": "#hud_title_text_string"
+                         },
+                         {
+                            "binding_name": "#hud_title_text_string",
+                            "binding_name_override": "#preserved_text"
+                         }
+                      ]
+                   }
+                }
+             ],
+             "bindings": [
+                {
+                   "binding_type": "view",
+                   "source_control_name": "data_control",
+                   "source_property_name": "(not ((#preserved_text - $update_string) = #hud_title_text_string)))",
+                   "target_property_name": "#visible"
+                }
+             ]
+          }
+       },
+       {
+          "9": {
+             "$update_string": "vamp_blood_9",
+             "type": "label",
+             "layer": 90,
+             "anchor_from": "top_right",
+             "anchor_to": "top_right",
+             "font_scale_factor": 0.38,
+             "text": "",
+             "controls": [
+                {
+                   "data_control": {
+                      "type": "panel",
+                      "size": [
+                         0,
+                         0
+                      ],
+                      "bindings": [
+                         {
+                            "binding_name": "#hud_title_text_string"
+                         },
+                         {
+                            "binding_name": "#hud_title_text_string",
+                            "binding_name_override": "#preserved_text"
+                         }
+                      ]
+                   }
+                }
+             ],
+             "bindings": [
+                {
+                   "binding_type": "view",
+                   "source_control_name": "data_control",
+                   "source_property_name": "(not ((#preserved_text - $update_string) = #hud_title_text_string)))",
+                   "target_property_name": "#visible"
+                }
+             ]
+          }
+       },
+       {
+          "10": {
+             "$update_string": "vamp_blood_X0",
+             "type": "label",
+             "layer": 90,
+             "anchor_from": "top_right",
+             "anchor_to": "top_right",
+             "font_scale_factor": 0.38,
+             "text": "",
+             "controls": [
+                {
+                   "data_control": {
+                      "type": "panel",
+                      "size": [
+                         0,
+                         0
+                      ],
+                      "bindings": [
+                         {
+                            "binding_name": "#hud_title_text_string"
+                         },
+                         {
+                            "binding_name": "#hud_title_text_string",
+                            "binding_name_override": "#preserved_text"
+                         }
+                      ]
+                   }
+                }
+             ],
+             "bindings": [
+                {
+                   "binding_type": "view",
+                   "source_control_name": "data_control",
+                   "source_property_name": "(not ((#preserved_text - $update_string) = #hud_title_text_string)))",
+                   "target_property_name": "#visible"
+                }
+             ]
+          }
+       },
+       {
+          "11": {
+             "$update_string": "vamp_blood_X1",
+             "type": "label",
+             "layer": 90,
+             "anchor_from": "top_right",
+             "anchor_to": "top_right",
+             "font_scale_factor": 0.38,
+             "text": "",
+             "controls": [
+                {
+                   "data_control": {
+                      "type": "panel",
+                      "size": [
+                         0,
+                         0
+                      ],
+                      "bindings": [
+                         {
+                            "binding_name": "#hud_title_text_string"
+                         },
+                         {
+                            "binding_name": "#hud_title_text_string",
+                            "binding_name_override": "#preserved_text"
+                         }
+                      ]
+                   }
+                }
+             ],
+             "bindings": [
+                {
+                   "binding_type": "view",
+                   "source_control_name": "data_control",
+                   "source_property_name": "(not ((#preserved_text - $update_string) = #hud_title_text_string)))",
+                   "target_property_name": "#visible"
+                }
+             ]
+          }
+       },
+       {
+          "12": {
+             "$update_string": "vamp_blood_X2",
+             "type": "label",
+             "layer": 90,
+             "anchor_from": "top_right",
+             "anchor_to": "top_right",
+             "font_scale_factor": 0.38,
+             "text": "",
+             "controls": [
+                {
+                   "data_control": {
+                      "type": "panel",
+                      "size": [
+                         0,
+                         0
+                      ],
+                      "bindings": [
+                         {
+                            "binding_name": "#hud_title_text_string"
+                         },
+                         {
+                            "binding_name": "#hud_title_text_string",
+                            "binding_name_override": "#preserved_text"
+                         }
+                      ]
+                   }
+                }
+             ],
+             "bindings": [
+                {
+                   "binding_type": "view",
+                   "source_control_name": "data_control",
+                   "source_property_name": "(not ((#preserved_text - $update_string) = #hud_title_text_string)))",
+                   "target_property_name": "#visible"
+                }
+             ]
+          }
+       },
+       {
+          "13": {
+             "$update_string": "vamp_blood_X3",
+             "type": "label",
+             "layer": 90,
+             "anchor_from": "top_right",
+             "anchor_to": "top_right",
+             "font_scale_factor": 0.38,
+             "text": "",
+             "controls": [
+                {
+                   "data_control": {
+                      "type": "panel",
+                      "size": [
+                         0,
+                         0
+                      ],
+                      "bindings": [
+                         {
+                            "binding_name": "#hud_title_text_string"
+                         },
+                         {
+                            "binding_name": "#hud_title_text_string",
+                            "binding_name_override": "#preserved_text"
+                         }
+                      ]
+                   }
+                }
+             ],
+             "bindings": [
+                {
+                   "binding_type": "view",
+                   "source_control_name": "data_control",
+                   "source_property_name": "(not ((#preserved_text - $update_string) = #hud_title_text_string)))",
+                   "target_property_name": "#visible"
+                }
+             ]
+          }
+       },
+       {
+          "14": {
+             "$update_string": "vamp_blood_X4",
+             "type": "label",
+             "layer": 90,
+             "anchor_from": "top_right",
+             "anchor_to": "top_right",
+             "font_scale_factor": 0.38,
+             "text": "",
+             "controls": [
+                {
+                   "data_control": {
+                      "type": "panel",
+                      "size": [
+                         0,
+                         0
+                      ],
+                      "bindings": [
+                         {
+                            "binding_name": "#hud_title_text_string"
+                         },
+                         {
+                            "binding_name": "#hud_title_text_string",
+                            "binding_name_override": "#preserved_text"
+                         }
+                      ]
+                   }
+                }
+             ],
+             "bindings": [
+                {
+                   "binding_type": "view",
+                   "source_control_name": "data_control",
+                   "source_property_name": "(not ((#preserved_text - $update_string) = #hud_title_text_string)))",
+                   "target_property_name": "#visible"
+                }
+             ]
+          }
+       },
+       {
+          "15": {
+             "$update_string": "vamp_blood_X5",
+             "type": "label",
+             "layer": 90,
+             "anchor_from": "top_right",
+             "anchor_to": "top_right",
+             "font_scale_factor": 0.38,
+             "text": "",
+             "controls": [
+                {
+                   "data_control": {
+                      "type": "panel",
+                      "size": [
+                         0,
+                         0
+                      ],
+                      "bindings": [
+                         {
+                            "binding_name": "#hud_title_text_string"
+                         },
+                         {
+                            "binding_name": "#hud_title_text_string",
+                            "binding_name_override": "#preserved_text"
+                         }
+                      ]
+                   }
+                }
+             ],
+             "bindings": [
+                {
+                   "binding_type": "view",
+                   "source_control_name": "data_control",
+                   "source_property_name": "(not ((#preserved_text - $update_string) = #hud_title_text_string)))",
+                   "target_property_name": "#visible"
+                }
+             ]
+          }
+       },
+       {
+          "16": {
+             "$update_string": "vamp_blood_X6",
+             "type": "label",
+             "layer": 90,
+             "anchor_from": "top_right",
+             "anchor_to": "top_right",
+             "font_scale_factor": 0.38,
+             "text": "",
+             "controls": [
+                {
+                   "data_control": {
+                      "type": "panel",
+                      "size": [
+                         0,
+                         0
+                      ],
+                      "bindings": [
+                         {
+                            "binding_name": "#hud_title_text_string"
+                         },
+                         {
+                            "binding_name": "#hud_title_text_string",
+                            "binding_name_override": "#preserved_text"
+                         }
+                      ]
+                   }
+                }
+             ],
+             "bindings": [
+                {
+                   "binding_type": "view",
+                   "source_control_name": "data_control",
+                   "source_property_name": "(not ((#preserved_text - $update_string) = #hud_title_text_string)))",
+                   "target_property_name": "#visible"
+                }
+             ]
+          }
+       },
+       {
+          "17": {
+             "$update_string": "vamp_blood_X7",
+             "type": "label",
+             "layer": 90,
+             "anchor_from": "top_right",
+             "anchor_to": "top_right",
+             "font_scale_factor": 0.38,
+             "text": "",
+             "controls": [
+                {
+                   "data_control": {
+                      "type": "panel",
+                      "size": [
+                         0,
+                         0
+                      ],
+                      "bindings": [
+                         {
+                            "binding_name": "#hud_title_text_string"
+                         },
+                         {
+                            "binding_name": "#hud_title_text_string",
+                            "binding_name_override": "#preserved_text"
+                         }
+                      ]
+                   }
+                }
+             ],
+             "bindings": [
+                {
+                   "binding_type": "view",
+                   "source_control_name": "data_control",
+                   "source_property_name": "(not ((#preserved_text - $update_string) = #hud_title_text_string)))",
+                   "target_property_name": "#visible"
+                }
+             ]
+          }
+       },
+       {
+          "18": {
+             "$update_string": "vamp_blood_X8",
+             "type": "label",
+             "layer": 90,
+             "anchor_from": "top_right",
+             "anchor_to": "top_right",
+             "font_scale_factor": 0.38,
+             "text": "",
+             "controls": [
+                {
+                   "data_control": {
+                      "type": "panel",
+                      "size": [
+                         0,
+                         0
+                      ],
+                      "bindings": [
+                         {
+                            "binding_name": "#hud_title_text_string"
+                         },
+                         {
+                            "binding_name": "#hud_title_text_string",
+                            "binding_name_override": "#preserved_text"
+                         }
+                      ]
+                   }
+                }
+             ],
+             "bindings": [
+                {
+                   "binding_type": "view",
+                   "source_control_name": "data_control",
+                   "source_property_name": "(not ((#preserved_text - $update_string) = #hud_title_text_string)))",
+                   "target_property_name": "#visible"
+                }
+             ]
+          }
+       },
+       {
+          "19": {
+             "$update_string": "vamp_blood_X9",
+             "type": "label",
+             "layer": 90,
+             "anchor_from": "top_right",
+             "anchor_to": "top_right",
+             "font_scale_factor": 0.38,
+             "text": "",
+             "controls": [
+                {
+                   "data_control": {
+                      "type": "panel",
+                      "size": [
+                         0,
+                         0
+                      ],
+                      "bindings": [
+                         {
+                            "binding_name": "#hud_title_text_string"
+                         },
+                         {
+                            "binding_name": "#hud_title_text_string",
+                            "binding_name_override": "#preserved_text"
+                         }
+                      ]
+                   }
+                }
+             ],
+             "bindings": [
+                {
+                   "binding_type": "view",
+                   "source_control_name": "data_control",
+                   "source_property_name": "(not ((#preserved_text - $update_string) = #hud_title_text_string)))",
+                   "target_property_name": "#visible"
+                }
+             ]
+          }
+       },
+       {
+          "20": {
+             "$update_string": "vamp_blood_XX0",
+             "type": "label",
+             "layer": 90,
+             "anchor_from": "top_right",
+             "anchor_to": "top_right",
+             "font_scale_factor": 0.38,
+             "text": "",
+             "controls": [
+                {
+                   "data_control": {
+                      "type": "panel",
+                      "size": [
+                         0,
+                         0
+                      ],
+                      "bindings": [
+                         {
+                            "binding_name": "#hud_title_text_string"
+                         },
+                         {
+                            "binding_name": "#hud_title_text_string",
+                            "binding_name_override": "#preserved_text"
+                         }
+                      ]
+                   }
+                }
+             ],
+             "bindings": [
+                {
+                   "binding_type": "view",
+                   "source_control_name": "data_control",
+                   "source_property_name": "(not ((#preserved_text - $update_string) = #hud_title_text_string)))",
+                   "target_property_name": "#visible"
+                }
+             ]
+          }
+       }
+    ]
+ },
+ "not_blood_thist": {
+    "$update_string": "_not_vamp_blood",
+    "type": "custom",
+    "size": [
+       1,
+       1
+    ],
+    "renderer": "hunger_renderer",
+    "layer": 1,
+    "controls": [
+       {
+          "data_control": {
+             "type": "panel",
+             "size": [
+                0,
+                0
+             ],
+             "bindings": [
+                {
+                   "binding_name": "#hud_title_text_string"
+                },
+                {
+                   "binding_name": "#hud_title_text_string",
+                   "binding_name_override": "#preserved_text"
+                }
+             ]
+          }
+       }
+    ],
+    "bindings": [
+       {
+          "binding_type": "view",
+          "source_control_name": "data_control",
+          "source_property_name": "(not ((#preserved_text - $update_string) = #hud_title_text_string)))",
+          "target_property_name": "#visible"
+       }
+    ]
+ },
+ "hunger_renderer": {
+    "type": "panel",
+    "layer": 1,
+    "controls": [
+       {
+          "blood_thist@hud.blood_thist": {}
+       },
+       {
+          "not_blood_thist@hud.not_blood_thist": {}
+       }
+    ]
+ }
 }

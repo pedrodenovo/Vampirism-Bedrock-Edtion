@@ -50,3 +50,7 @@ block.sunrise:altar_inspiration_full=Altar da inspiração com sangue
 gui.button.UseSkill_night_vision=Visão noturna
 gui.button.UseSkill_vampire_regeneration=Regeneração vampirica
 gui.button.UseSkill_bat_mode=Morceguificação
+
+
+## text ##
+skill.altar_limit=Você não pode mais usar esse altar no seu nivel...

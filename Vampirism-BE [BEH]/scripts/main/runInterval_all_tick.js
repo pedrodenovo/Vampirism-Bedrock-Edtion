@@ -41,7 +41,10 @@ server.system.runInterval(eventData => {
 
 function _vp_tb(player) {
     let vp_tb = ""
-    if (player.hasTag("vamp") && player.runCommand("testfor @s[m=!c,scores={blood=13680..}]").successCount == 1) {
+    if (!player.hasTag("vamp")) {
+        vp_tb += "_not_vamp_blood "
+    }
+    else if (player.hasTag("vamp") && player.runCommand("testfor @s[m=!c,scores={blood=13680..}]").successCount == 1) {
         vp_tb += "vamp_blood_XX0 "
     }
     else if (player.hasTag("vamp") && player.runCommand("testfor @s[m=!c,scores={blood=12960..}]").successCount == 1) {
@@ -98,9 +101,9 @@ function _vp_tb(player) {
     } else if (player.hasTag("vamp") && player.runCommand("testfor @s[m=!c,scores={blood=1440..}]").successCount == 1) {
         vp_tb += 'vamp_blood_2 '
 
-    } else if (player.hasTag("vamp") && player.runCommand("testfor @s[m=!c,scores={blood=2..}]").successCount == 1) {
+    } else if (player.hasTag("vamp") && player.runCommand("testfor @s[m=!c,scores={blood=920..}]").successCount == 1) {
         vp_tb += 'vamp_blood_1 '
-    } else if (player.hasTag("vamp") && player.runCommand("testfor @s[m=!c,scores={blood=..1}]").successCount == 1) {
+    } else if (player.hasTag("vamp") && player.runCommand("testfor @s[m=!c,scores={blood=..120}]").successCount == 1) {
         vp_tb += 'vamp_blood_0 '
     }
     return vp_tb
