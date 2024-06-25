@@ -47,9 +47,20 @@ block.sunrise:polished_dark_stone=Polished dark stone
 block.sunrise:vampire_orchid=Vampire orchid
 
 ## gui ##
+gui.button.no_skill=No skill
 gui.button.UseSkill_bat_mode=Batification
 gui.button.UseSkill_night_vision=Night vision
 gui.button.UseSkill_vampire_regeneration=Vampire regeneration
+
+gui.button.UseSkill_bat_mode.bottom_f.up_l=Batification
+gui.button.UseSkill_night_vision.bottom_l=Night vision
+gui.button.UseSkill_vampire_regeneration.bottom_l.up_l=Vampire regeneration
+
+gui.button.disable_bat_mode.bottom_f.up_l=Batification
+gui.button.disable_night_vision.bottom_l=Night vision
+gui.button.disable_vampire_regeneration.bottom_l.up_l=Vampire regeneration
+
+
 
 
 ## text ##

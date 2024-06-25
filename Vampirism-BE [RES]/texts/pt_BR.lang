@@ -47,9 +47,18 @@ block.sunrise:altar_inspiration=Altar da inspiração
 block.sunrise:altar_inspiration_full=Altar da inspiração com sangue
 
 ## gui ##
+gui.button.no_skill=Sem habilidade
 gui.button.UseSkill_night_vision=Visão noturna
 gui.button.UseSkill_vampire_regeneration=Regeneração vampirica
 gui.button.UseSkill_bat_mode=Morceguificação
+
+gui.button.UseSkill_night_vision.bottom_l=Visão noturna
+gui.button.UseSkill_vampire_regeneration.bottom_l.up_l=Regeneração vampirica
+gui.button.UseSkill_bat_mode.bottom_f.up_l=Morceguificação
+
+gui.button.disable_night_vision.bottom_l=Visão noturna
+gui.button.disable_vampire_regeneration.bottom_l.up_l=Regeneração vampirica
+gui.button.disable_bat_mode.bottom_f.up_l=Morceguificação
 
 
 ## text ##

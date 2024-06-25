@@ -143,8 +143,8 @@ server.world.afterEvents.entityHitBlock.subscribe(eventData => {
     let blockId = eventData.hitBlock.typeId
     let blockLoc = eventData.hitBlock.location
     if (blockId.startsWith("sunrise:altar_inspiration")){
-        if ((player.hasTag('lv_vamp_1')||player.hasTag('lv_vamp_2')||player.hasTag('lv_vamp_3')) && player.hasTag("vamp") && blockId == "sunrise:altar_inspiration_full"){
-            skill_screen.unlock_skill_for(player,blockLoc)
+        if ((player.hasTag('lv_vamp_1')||player.hasTag('lv_vamp_2')||player.hasTag('lv_vamp_3')) && player.hasTag("vamp") && blockId == "sunrise:altar_inspiration_full" && player.runCommand('testfor @s[hasitem=[{item=sunrise:blood_bottle_9,location=slot.weapon.mainhand}]]').successCount==1){
+            skill_screen.add_level(player,blockLoc)
         } else if (blockId == "sunrise:altar_inspiration" && player.hasTag("vamp") && player.runCommand('testfor @s[hasitem=[{item=sunrise:blood_bottle_9,location=slot.weapon.mainhand}]]').successCount==1){
             player.runCommandAsync(`setblock ${blockLoc.x} ${blockLoc.y} ${blockLoc.z} sunrise:altar_inspiration_1`);
             player.runCommand("clear @s[tag=!vamp] sunrise:blood_bottle_9 0 1")

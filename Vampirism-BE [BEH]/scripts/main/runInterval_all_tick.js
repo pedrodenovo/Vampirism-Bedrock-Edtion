@@ -98,10 +98,10 @@ function _vp_tb(player) {
     } else if (player.hasTag("vamp") && player.runCommand("testfor @s[m=!c,scores={blood=2160..}]").successCount == 1) {
         vp_tb += 'vamp_blood_3 '
 
-    } else if (player.hasTag("vamp") && player.runCommand("testfor @s[m=!c,scores={blood=1440..}]").successCount == 1) {
+    } else if (player.hasTag("vamp") && player.runCommand("testfor @s[m=!c,scores={blood=920..}]").successCount == 1) {
         vp_tb += 'vamp_blood_2 '
 
-    } else if (player.hasTag("vamp") && player.runCommand("testfor @s[m=!c,scores={blood=920..}]").successCount == 1) {
+    } else if (player.hasTag("vamp") && player.runCommand("testfor @s[m=!c,scores={blood=121..920}]").successCount == 1) {
         vp_tb += 'vamp_blood_1 '
     } else if (player.hasTag("vamp") && player.runCommand("testfor @s[m=!c,scores={blood=..120}]").successCount == 1) {
         vp_tb += 'vamp_blood_0 '
